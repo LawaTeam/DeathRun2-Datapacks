@@ -1,0 +1,4 @@
+#By CO_LIGHT
+
+tp 34.56 32.00 -110.56
+#give @p minecraft:oak_sign{BlockEntityTag:{Text1:"[{\"text\":\"\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function co_light_dr:map_points/map_1/back_1\"}}]",Text2:"[{\"text\":\"Back\",\"color\":\"red\",\"bold\":\"true\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function co_light_dr:map_points/map_1/back_1\"}}]",Text3:"[{\"text\":\">点击返回<\",\"color\":\"aqua\",\"bold\":\"true\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function co_light_dr:map_points/map_1/back_1\"}}]",Text4:"[{\"text\":\"\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function co_light_dr:map_points/map_1/back_1\"}}]"}} 1

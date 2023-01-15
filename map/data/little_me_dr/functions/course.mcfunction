@@ -1,0 +1,1 @@
+tellraw @a [{"text": "有人按下了","color": "white","bold": true},{"text": "[教程]","color": "red","bold": true},{"text": "按钮，是否进入教程","color": "white","bold": true},{"text": "[是]","color": "green","bold": true,"clickEvent": {"action": "run_command","value": "tellraw @s 你点击了是"}}]
