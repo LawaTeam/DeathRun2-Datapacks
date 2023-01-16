@@ -1,1 +1,0 @@
-summon minecraft:armor_stand ~1 ~ ~ {Tags:[animate],Small:1,ShowArms:1,DisabledSlots:4144896,NoBasePlate:1,ArmorItems:[{id:"minecraft:diamond_boots",Count:1},{id:"minecraft:diamond_leggings",Count:1},{id:"minecraft:diamond_chestplate",Count:1},{id:"minecraft:diamond_helmet",Count:1}]}

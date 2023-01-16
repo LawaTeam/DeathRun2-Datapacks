@@ -1,3 +1,8 @@
+# @File    :   map2.mcfunction
+# @Time    :   2023/01/16 22:01:32
+# @Author  :   Little_Me666 
+# @From    :   tick.mcfunction
+
 execute if block 0 25 1007 minecraft:magma_block run setblock 0 25 1007 lava replace
 execute if block 1 25 1007 minecraft:magma_block run setblock 1 25 1007 lava replace
 execute if block 0 25 1006 minecraft:magma_block run setblock 0 25 1006 lava replace
