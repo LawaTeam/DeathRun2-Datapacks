@@ -12,6 +12,7 @@ setblock -266 53 731 minecraft:sea_lantern replace
 setblock -270 53 731 minecraft:sea_lantern replace
 fill -266 54 727 -270 56 727 minecraft:barrier replace
 particle block black_concrete -268 55 727 1.5 1.5 0 0 1000
+playsound block.stone.break block @a[tag=front1] -268 55 727 3 1 0
 setblock -268 60 732 air replace
 
 # Runner

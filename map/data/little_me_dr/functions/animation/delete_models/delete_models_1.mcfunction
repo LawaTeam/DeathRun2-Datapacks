@@ -13,3 +13,4 @@ setblock -266 53 727 minecraft:smooth_quartz replace
 setblock -266 53 731 minecraft:smooth_quartz replace
 setblock -270 53 731 minecraft:smooth_quartz replace
 fill -266 54 727 -270 56 727 minecraft:black_concrete replace
+playsound block.stone.place block @a -268 55 727 3 1 0
