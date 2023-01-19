@@ -1,6 +1,6 @@
 #By CO_LIGHT
 
-fill 111 24 -310 111 24 -316 minecraft:red_concrete replace minecraft:lime_concrete
+fill 111 24 -310 115 23 -316 minecraft:red_concrete replace minecraft:lime_concrete
 
 fill 99 24 -309 109 28 -318 minecraft:iron_bars outline
 fill 100 28 -317 108 24 -310 air

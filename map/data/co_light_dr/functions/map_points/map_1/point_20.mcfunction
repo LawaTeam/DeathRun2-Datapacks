@@ -1,5 +1,5 @@
 
-fill 127 24 -109 118 23 -109 minecraft:red_concrete replace minecraft:lime_concrete
+fill 127 24 -109 118 22 -113 minecraft:red_concrete replace minecraft:lime_concrete
 summon minecraft:endermite 124.59 23.00 -103.64
 summon minecraft:endermite 122.45 22.50 -103.46
 summon minecraft:endermite 122.45 22.50 -103.46

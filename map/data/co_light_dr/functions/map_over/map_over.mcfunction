@@ -1,5 +1,10 @@
 #By CO_LIGHT
 #say 1
+
+#剩余生命相关侦测
+execute if score 游戏状态 run matches 1 run execute if score 游戏模式 setting matches 1 run execute as @a[scores={Deaths=1..}] at @s run function co_light_dr:map_over/remove_hearts
+execute if score 游戏状态 run matches 1 run execute execute if score 游戏模式 setting matches 1 run execute as @a[scores={hearts=0}] at @s run function co_light_dr:map_over/no_hearts
+
 #map1
 execute if score map1 TIME matches 419 run tellraw @a [{"text":"距离游戏结束还有","color":"yellow"},{"text":"20s","color":"green"}]
 execute if score map1 TIME matches 400 run title @a[tag=player] title {"text":"20s","color":"green","bold":true}
@@ -22,7 +27,7 @@ execute if score map1 TIME matches 80 run title @a[tag=player] title {"text":"4s
 execute if score map1 TIME matches 60 run title @a[tag=player] title {"text":"3s","color":"green","bold":true}
 execute if score map1 TIME matches 40 run title @a[tag=player] title {"text":"2s","color":"green","bold":true}
 execute if score map1 TIME matches 20 run title @a[tag=player] title {"text":"1s","color":"green","bold":true}
-execute if score map1 TIME matches 0 run function co_light_dr:map_over/over1
+execute if score map1 TIME matches 0 run function co_light_dr:map_over/over
 
 execute as @a[x=86,y=42,z=-110,dx=5,dy=-2,dz=5,tag=!finish,tag=player,team=!killer,gamemode=!creative,gamemode=!spectator] at @s run function co_light_dr:map_over/map_over_1
 execute as @a[x=86,y=42,z=-110,dx=5,dy=-2,dz=5,tag=player,team=!killer,gamemode=!creative] at @s run tag @s add finish
@@ -53,7 +58,7 @@ execute if score map2 TIME matches 80 run title @a[tag=player] title {"text":"4s
 execute if score map2 TIME matches 60 run title @a[tag=player] title {"text":"3s","color":"green","bold":true}
 execute if score map2 TIME matches 40 run title @a[tag=player] title {"text":"2s","color":"green","bold":true}
 execute if score map2 TIME matches 20 run title @a[tag=player] title {"text":"1s","color":"green","bold":true}
-execute if score map2 TIME matches 0 run function co_light_dr:map_over/over2
+execute if score map2 TIME matches 0 run function co_light_dr:map_over/over
 
 execute as @a[x=95,y=39,z=-654,dx=6,dy=-2,dz=2,tag=!finish,tag=player,team=!killer,gamemode=!creative,gamemode=!spectator] at @s run function co_light_dr:map_over/map_over_2
 execute as @a[x=95,y=39,z=-654,dx=6,dy=-2,dz=2,tag=player,team=!killer,gamemode=!creative] at @s run tag @s add finish

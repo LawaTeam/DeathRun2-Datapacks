@@ -1,6 +1,6 @@
 #By CO_LIGHT
 
-fill -5 23 -97 -5 23 -93 minecraft:red_concrete
+fill -5 23 -97 -8 22 -93 minecraft:red_concrete replace minecraft:lime_concrete
 
 fill 12 22 -94 -4 22 -101 minecraft:air
 

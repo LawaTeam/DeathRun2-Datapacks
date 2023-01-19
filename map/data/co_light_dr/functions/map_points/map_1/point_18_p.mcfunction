@@ -1,4 +1,4 @@
-fill 132 30 -149 132 29 -145 minecraft:yellow_concrete replace minecraft:red_concrete
+fill 132 30 -149 129 28 -145 minecraft:yellow_concrete replace minecraft:red_concrete
 
 fill 135 22 -152 136 22 -152 minecraft:gray_concrete
 fill 136 22 -153 138 22 -153 minecraft:gray_concrete

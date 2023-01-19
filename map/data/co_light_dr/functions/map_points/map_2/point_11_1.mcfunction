@@ -1,6 +1,6 @@
 #by CO_LIGHT
 
-fill 111 26 -405 111 26 -408 minecraft:red_concrete replace minecraft:lime_concrete
+fill 111 26 -405 114 26 -408 minecraft:red_concrete replace minecraft:lime_concrete
 
 summon minecraft:arrow 92.00 23.37 -422.50 {Motion:[5d,0.1d,0d],damage:50}
 summon minecraft:arrow 92.00 23.37 -421.50 {Motion:[5d,0.1d,0d],damage:50}

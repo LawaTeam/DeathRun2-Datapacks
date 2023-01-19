@@ -1,6 +1,6 @@
 #By CO_LIGHT
 
-fill -5 23 -120 -5 23 -122 minecraft:red_concrete destroy
+fill -5 23 -120 -7 22 -122 minecraft:red_concrete replace minecraft:lime_concrete
 
 summon minecraft:arrow 12 24 -113 {Motion:[-5d,0.1d,0d],damage:50}
 summon minecraft:arrow 12 24 -114 {Motion:[-5d,0d,0d],damage:50}

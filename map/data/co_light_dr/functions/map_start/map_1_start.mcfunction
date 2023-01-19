@@ -1,9 +1,13 @@
 #By CO_LIGHT
 
-#死亡榜显示
+#计分板显示显示
 scoreboard players reset @a Deaths
+scoreboard players reset @a hearts
 
-scoreboard objectives setdisplay sidebar Deaths
+execute if score 游戏模式 setting matches 1 run scoreboard objectives setdisplay sidebar hearts
+execute if score 游戏模式 setting matches 1 run scoreboard players operation @a hearts = hearts run
+
+execute if score 游戏模式 setting matches 2 run scoreboard objectives setdisplay sidebar Deaths
 scoreboard players set @a[team=runner] Deaths 0
 
 #设置标题

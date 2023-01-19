@@ -1,6 +1,6 @@
 #By CO_LIGHT
 
-fill 14 23 -236 18 23 -236 minecraft:red_concrete replace minecraft:lime_concrete
+fill 14 23 -236 18 22 -233 minecraft:red_concrete replace minecraft:lime_concrete
 
 setblock 12 19 -249 minecraft:air
 setblock 13 20 -248 minecraft:air

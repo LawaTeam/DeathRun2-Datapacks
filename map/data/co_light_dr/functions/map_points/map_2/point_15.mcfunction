@@ -1,6 +1,6 @@
 #by CO_LIGHT
 
-fill 111 37 -497 111 37 -502 minecraft:red_concrete replace minecraft:lime_concrete
+fill 111 37 -497 114 36 -502 minecraft:red_concrete replace minecraft:lime_concrete
 
 summon minecraft:snowball 93.00 39.39 -493.51 {Motion:[1d,-0.67d,0d],Tags:[boom]}
 summon minecraft:snowball 93.00 39.39 -493.51 {Motion:[1d,-0.67d,0d],Tags:[boom]}

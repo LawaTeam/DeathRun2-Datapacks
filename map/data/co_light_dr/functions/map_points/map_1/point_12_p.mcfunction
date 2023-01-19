@@ -1,6 +1,6 @@
 #by CO_LIGHT
 
-fill 61 24 -114 61 23 -107 minecraft:yellow_concrete replace minecraft:red_concrete
+fill 61 24 -114 56 22 -107 minecraft:yellow_concrete replace minecraft:red_concrete
 
 setblock 69 22 -113 minecraft:redstone_block
 

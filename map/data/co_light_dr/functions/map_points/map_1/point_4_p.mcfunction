@@ -5,7 +5,7 @@ fill -4 27 -147 12 26 -147 minecraft:air destroy
 
 kill @e[type=zombie]
 
-fill -5 25 -155 -5 25 -152 minecraft:yellow_concrete destroy
+fill -5 25 -155 -8 24 -152 minecraft:yellow_concrete replace minecraft:red_concrete
 
 particle minecraft:lava 4 25.5 -147 5 0 0 0 20
 particle minecraft:lava 4 25.5 -158 5 0 0 0 20
