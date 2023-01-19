@@ -9,6 +9,7 @@ scoreboard players set map1 TIME -1
 scoreboard players set map2 TIME -1
 
 tp @a[tag=player] 8.04 26.00 1037.74
+clear @a[tag=player]
 execute as @a at @s run spawnpoint @s
 clear @a
 gamemode adventure @a
