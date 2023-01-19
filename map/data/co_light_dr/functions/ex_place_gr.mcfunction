@@ -84,7 +84,7 @@ execute as @a[x=132,y=23,z=-123,dx=2,dz=5] at @s if score point_19 Point_m1 matc
 execute as @a[x=132,y=23,z=-123,dx=2,dz=5] at @s if score point_19 Point_m1 matches -140..-1 run function co_light_dr:gz_sz/map_1/yellow
 #Point_20
 execute as @a[x=121,y=23,z=-112,dx=4,dz=2] at @s unless score point_20 Point_m1 matches -140.. run function co_light_dr:gz_sz/map_1/green/mp_20
-execute as @a[x=121,y=23,z=-112,dx=4,dz=2] at @s if score point_20 Point_m1 matches 0..-150 run function co_light_dr:gz_sz/map_1/red
+execute as @a[x=121,y=23,z=-112,dx=4,dz=2] at @s if score point_20 Point_m1 matches 0..150 run function co_light_dr:gz_sz/map_1/red
 execute as @a[x=121,y=23,z=-112,dx=4,dz=2] at @s if score point_20 Point_m1 matches -140..-1 run function co_light_dr:gz_sz/map_1/yellow
 
 

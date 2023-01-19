@@ -3,7 +3,7 @@
 
 #剩余生命相关侦测
 execute if score 游戏状态 run matches 1 run execute if score 游戏模式 setting matches 1 run execute as @a[scores={Deaths=1..}] at @s run function co_light_dr:map_over/remove_hearts
-execute if score 游戏状态 run matches 1 run execute execute if score 游戏模式 setting matches 1 run execute as @a[scores={hearts=0}] at @s run function co_light_dr:map_over/no_hearts
+execute if score 游戏状态 run matches 1 run execute if score 游戏模式 setting matches 1 run execute as @a[scores={hearts=0}] at @s run function co_light_dr:map_over/no_hearts
 
 #map1
 execute if score map1 TIME matches 419 run tellraw @a [{"text":"距离游戏结束还有","color":"yellow"},{"text":"20s","color":"green"}]
