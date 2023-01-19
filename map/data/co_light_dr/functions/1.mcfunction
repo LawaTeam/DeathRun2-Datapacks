@@ -339,8 +339,8 @@ execute if score point_19 Point_m2 matches -141 run fill 111 36 -589 113 36 -591
 
 execute if score point_20 Point_m2 matches 119 run function co_light_dr:map_points/map_2/point_20
 execute if score point_20 Point_m2 matches 0 run function co_light_dr:map_points/map_2/point_20_p
-execute if score point_20 Point_m2 matches -281 run setblock 111 37 -608 minecraft:lime_concrete
-execute if score point_20 Point_m2 matches -281 run setblock 111 37 -612 minecraft:lime_concrete
+execute if score point_20 Point_m2 matches -481 run setblock 111 37 -608 minecraft:lime_concrete
+execute if score point_20 Point_m2 matches -481 run setblock 111 37 -612 minecraft:lime_concrete
 execute if score point_20 Point_m2 matches -481 run fill 111 36 -609 113 36 -611 minecraft:lime_concrete
 
 execute if score point_21 Point_m2 matches 149 run function co_light_dr:map_points/map_2/point_21
