@@ -14,11 +14,11 @@ gamemode adventure @a
 title @a title [{"text":">>","color":"white","bold":true},{"text":"杀手胜利","color":"red","bold":true},{"text":"<<","color":"white","bold":true}]
 
 #title @a title {"text":"Game Over","color":"gold","bold":true}
-tellraw @a {"text":"=========================================================","color":"gray"}
+tellraw @a {"text":"===============================================","color":"gray"}
 tellraw @a ""
 tellraw @a {"text":"          没有求生者到达终点","color":"aqua","bold":true}
 tellraw @a ""
-tellraw @a {"text":"=========================================================","color":"gray"}
+tellraw @a {"text":"===============================================","color":"gray"}
 
 
 

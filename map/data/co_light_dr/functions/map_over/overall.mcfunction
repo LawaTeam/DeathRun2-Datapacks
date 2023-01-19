@@ -14,7 +14,7 @@ clear @a
 gamemode adventure @a
 
 title @a title {"text":"Game Over","color":"gold","bold":true}
-tellraw @a {"text":"=========================================================","color":"gray"}
+tellraw @a {"text":"===============================================","color":"gray"}
 tellraw @a ""
 tellraw @a [{"text":"          1st:","color":"gold","bold":true},{"selector":"@a[team=1st]"}]
 tellraw @a [{"text":"          2nd:","color":"yellow","bold":true},{"selector":"@a[team=2nd]"}]
@@ -24,7 +24,7 @@ tellraw @a [{"text":"          [完成]:","color":"green","bold":true},{"selecto
 tellraw @a [{"text":"          [未完成]:","color":"gray","bold":true},{"selector":"@a[tag=!finish,tag=player,team=!killer,team=!1st,team=!2nd,team=!3rd,team=!finish,team=!out]"}]
 tellraw @a [{"text":"          [淘汰]:","color":"gray","bold":true},{"selector":"@a[tag=!finish,tag=player,team=out]"}]
 tellraw @a ""
-tellraw @a {"text":"=========================================================","color":"gray"}
+tellraw @a {"text":"===============================================","color":"gray"}
 
 
 
