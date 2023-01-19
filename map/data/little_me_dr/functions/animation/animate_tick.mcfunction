@@ -72,3 +72,21 @@ execute as @a[x=-246,y=52,z=723,dx=4,dy=4,dz=3] at @s run tag @s add front3
 execute unless entity @a[x=-246,y=52,z=723,dx=4,dy=4,dz=3] if entity @a[tag=front3] as @a[tag=front3] run tag @s remove front3 
 execute if entity @a[tag=front3] unless block -244 60 728 minecraft:redstone_block run setblock -244 60 728 minecraft:redstone_block replace
 execute unless entity @a[tag=front3] if block -244 60 732 air run setblock -244 60 732 redstone_block replace
+
+
+# text4
+execute if entity @a[tag=front4] run scoreboard players add show_animate4 animate_time 1
+execute as @a[x=-246,y=52,z=715,dx=4,dy=4,dz=3] at @s run tag @s add front4
+execute unless entity @a[x=-246,y=52,z=715,dx=4,dy=4,dz=3] if entity @a[tag=front4] as @a[tag=front4] run tag @s remove front4 
+execute if entity @a[tag=front4] unless block -244 60 713 minecraft:redstone_block run setblock -244 60 713 minecraft:redstone_block replace
+execute unless entity @a[tag=front4] if block -244 60 709 air run setblock -244 60 709 redstone_block replace
+
+execute if score show_animate4 animate_time matches 10 if entity @a[tag=front4] run data merge entity @e[tag=first,tag=text4,limit=1] {Pose:{LeftArm:[0f,0f,225f],RightArm:[0f,0f,139f]}}
+execute if score show_animate4 animate_time matches 10 if entity @a[tag=front4] run data merge entity @e[tag=second,tag=text4,limit=1] {Pose:{RightArm:[0f,0f,139f]}}
+execute if score show_animate4 animate_time matches 10 if entity @a[tag=front4] run data merge entity @e[tag=third,tag=text4,limit=1] {Pose:{LeftArm:[0f,0f,225f]}}
+
+execute if score show_animate4 animate_time matches 30 if entity @a[tag=front4] run data merge entity @e[tag=first,tag=text4,limit=1] {Pose:{LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f]}}
+execute if score show_animate4 animate_time matches 30 if entity @a[tag=front4] run data merge entity @e[tag=second,tag=text4,limit=1] {Pose:{RightArm:[0f,0f,0f]}}
+execute if score show_animate4 animate_time matches 30 if entity @a[tag=front4] run data merge entity @e[tag=third,tag=text4,limit=1] {Pose:{LeftArm:[0f,0f,0f]}}
+
+execute if score show_animate4 animate_time >= 40 animate_constant run scoreboard players reset show_animate4 animate_time
