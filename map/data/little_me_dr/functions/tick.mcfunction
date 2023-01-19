@@ -24,4 +24,4 @@ function little_me_dr:animation/animate_tick
 # 教程图加速
 execute as @a[x=-276,y=52,z=714,dx=41,dy=6,dz=13] run effect give @s speed 1 2 true
 
-tellraw Little_Me666 123
+# tellraw Little_Me666 123
