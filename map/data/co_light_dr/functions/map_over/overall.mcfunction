@@ -8,6 +8,8 @@ scoreboard players set 游戏状态 run 0
 scoreboard players set map1 TIME -1
 scoreboard players set map2 TIME -1
 
+tp @a[tag=spectator] 8.04 26.00 1037.74
+
 tp @a[tag=player] 8.04 26.00 1037.74
 clear @a[tag=player]
 execute as @a at @s run spawnpoint @s
@@ -22,7 +24,7 @@ tellraw @a [{"text":"          2nd:","color":"yellow","bold":true},{"selector":"
 tellraw @a [{"text":"          3rd:","color":"yellow","bold":true},{"selector":"@a[team=3rd]"}]
 tellraw @a ""
 tellraw @a [{"text":"          [完成]:","color":"green","bold":true},{"selector":"@a[team=finish]"}]
-tellraw @a [{"text":"          [未完成]:","color":"gray","bold":true},{"selector":"@a[tag=!finish,tag=player,team=!killer,team=!1st,team=!2nd,team=!3rd,team=!finish,team=!out]"}]
+tellraw @a [{"text":"          [未完成]:","color":"gray","bold":true},{"selector":"@a[tag=!finish,tag=player,team=!killer,team=!1st,team=!2nd,team=!3rd,team=!finish,team=!out,team=!spectator]"}]
 tellraw @a [{"text":"          [淘汰]:","color":"gray","bold":true},{"selector":"@a[tag=!finish,tag=player,team=out]"}]
 tellraw @a ""
 tellraw @a {"text":"===============================================","color":"gray"}

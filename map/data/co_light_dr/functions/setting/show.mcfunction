@@ -9,8 +9,7 @@ execute if score 游戏模式 setting matches 1 run data modify block 45 38 1060
 execute if score 游戏模式 setting matches 1 run data modify block 45 38 1060 Text2 set value '{"text":"生命值","red":"gold","bold":"true"}'
 
 #计时模式
-execute if score 游戏模式 setting matches 2 run data modify entity @e[type=minecraft:armor_stand,tag=hearts_show,limit=1] CustomName set value '{"text":"[当前设定]","color":"yellow","bold":"true"}'
-#execute if score 游戏模式 setting matches 2 run data modify entity @e[type=minecraft:armor_stand,tag=hearts_show,limit=1] CustomNameVisible set value 0b
+execute if score 游戏模式 setting matches 2 run data modify entity @e[type=minecraft:armor_stand,tag=hearts_show,limit=1] CustomNameVisible set value 0b
 execute if score 游戏模式 setting matches 2 run data modify block 45 39 1056 Text2 set value '{"text":"-10","bold":"true","color":"aqua","clickEvent":{"action":"run_command","value":"/function co_light_dr:timedown/remove_time"}}'
 execute if score 游戏模式 setting matches 2 run data modify block 45 39 1058 Text2 set value '{"text":"+10","bold":"true","color":"aqua","clickEvent":{"action":"run_command","value":"/function co_light_dr:timedown/add_time"}}'
 execute if score 游戏模式 setting matches 2 run data modify block 45 39 1057 Text2 set value '{"text":"时间设定","color":"red","bold":"true"}'

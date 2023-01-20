@@ -7,6 +7,8 @@ scoreboard players set 游戏状态 run 0
 
 scoreboard players set 剩余时间 run -1
 
+tp @a[tag=spectator] 8.04 26.00 1037.74
+
 tp @a[tag=player] 8.04 26.00 1037.74
 clear @a[tag=player]
 execute as @a at @s run spawnpoint @s
