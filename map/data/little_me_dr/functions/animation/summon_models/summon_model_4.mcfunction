@@ -4,7 +4,7 @@
 # @From    :   Command Block(-244,60,712)
 
 setblock -244 60 709 air replace
-# fill -242 54 714 -246 56 714 minecraft:barrier replace
+fill -242 54 714 -246 56 714 minecraft:barrier replace
 particle block black_concrete -244 55 714 1.5 1.5 0 0 1000
 playsound block.stone.break block @a[tag=front4] -244 55 714 3 1 0
 
