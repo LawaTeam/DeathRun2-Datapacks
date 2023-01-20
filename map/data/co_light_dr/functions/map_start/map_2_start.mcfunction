@@ -9,7 +9,7 @@ scoreboard players reset @a Deaths
 scoreboard players reset @a hearts
 
 execute if score 游戏模式 setting matches 1 run scoreboard objectives setdisplay sidebar hearts
-execute if score 游戏模式 setting matches 1 run scoreboard players operation @a hearts = hearts run
+execute if score 游戏模式 setting matches 1 run scoreboard players operation @a[team=runner] hearts = hearts run
 
 execute if score 游戏模式 setting matches 2 run scoreboard objectives setdisplay sidebar Deaths
 scoreboard players set @a[team=runner] Deaths 0
