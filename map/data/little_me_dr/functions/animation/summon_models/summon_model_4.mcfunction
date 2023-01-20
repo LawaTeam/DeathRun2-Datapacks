@@ -36,3 +36,18 @@ summon armor_stand -244.75 54.75 712.0 {NoGravity:1b,CustomName:'{"text":"全速
 summon armor_stand -244.75 54.5 712.0 {NoGravity:1b,CustomName:'{"text":"争夺冠军之位","bold": true,"color": "aqua"}',CustomNameVisible:1b,Invisible:1b,Tags:["text4"]}
 
 summon armor_stand -242.25 55.0 712.0 {NoGravity:1b,CustomName:'{"text":"[计时模式]","bold": true,"color": "aqua"}',CustomNameVisible:1b,Invisible:1b,Tags:["text4"]}
+
+# 计时模式
+summon item_frame -242.5 55.5 712.5 {Fixed:1b,CustomName:'{"text":"简易计时器","bold": true,"color": "gray"}',CustomNameVisible:1b,Facing:2b,Tags:["text4"],TileY:56,TileX:-242}
+# 外框
+summon armor_stand -242.5 53.75 713.2 {CustomName:'{"text": "简易计时器","bold": true,"color": "dark_gray"}',CustomNameVisible:1b,NoGravity:1b,Invisible:1b,Tags:["text4"]}
+# 指针1
+summon armor_stand -242.35 54.45 713.2 {Small:1b,NoGravity:1b,ArmorItems:[{},{},{},{Count:1,id:"minecraft:stick"}],Tags:["text4","animate_timmer"]}
+# 指针2
+summon armor_stand -242.65 54.425 713.2 {Small:1b,NoGravity:1b,ArmorItems:[{},{},{},{Count:1,id:"minecraft:stick"}],Tags:["text4"],Pose:{Head:[0f,0f,45f]}}
+# 指针3
+summon armor_stand -242.85 54.65 713.2 {Small:1b,NoGravity:1b,ArmorItems:[{},{},{},{Count:1,id:"minecraft:stick"}],Tags:["text4"],Pose:{Head:[0f,0f,90f]}}
+
+summon armor_stand -242.85 54.65 713.2 {Small:1b,NoGravity:1b,ArmorItems:[{},{},{},{Count:1,id:"minecraft:stick"}],Tags:["text4"],Pose:{Head:[0f,0f,90f]}}
+
+
