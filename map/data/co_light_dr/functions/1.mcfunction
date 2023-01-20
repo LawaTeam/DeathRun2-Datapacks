@@ -394,7 +394,7 @@ function co_light_dr:execute_player_number
 #给参与游戏的玩家加上tag
 tag @a[team=killer] add player
 tag @a[team=runner] add player
-tag @a[team=!runner,team=!killer,team=!finish,team=!1st,team=!2nd,team=!3rd] remove player
+tag @a[team=!runner,team=!killer,team=!finish,team=!1st,team=!2nd,team=!3rd,team=!out] remove player
 tag @a[team=!1st,team=!2nd,team=!3rd,team=!killer,team=!runner] remove finish
 
 tag @a[team=out] add out
