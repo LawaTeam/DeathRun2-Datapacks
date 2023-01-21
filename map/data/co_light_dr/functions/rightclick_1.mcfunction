@@ -49,5 +49,23 @@ execute as @a at @s if entity @s[nbt={SelectedItem:{tag:{mp_2:19}}}] run scorebo
 execute as @a at @s if entity @s[nbt={SelectedItem:{tag:{mp_2:20}}}] run scoreboard players set point_20 Point_m2 120
 execute as @a at @s if entity @s[nbt={SelectedItem:{tag:{mp_2:21}}}] run scoreboard players set point_21 Point_m2 150
 
-
-
+#map_3
+execute as @a at @s if entity @s[nbt={SelectedItem:{tag:{mp_3:1}}}] run scoreboard players set point_1 Point_m3 100
+execute as @a at @s if entity @s[nbt={SelectedItem:{tag:{mp_3:2}}}] run scoreboard players set point_2 Point_m3 100
+execute as @a at @s if entity @s[nbt={SelectedItem:{tag:{mp_3:3}}}] run scoreboard players set point_3 Point_m3 100
+execute as @a at @s if entity @s[nbt={SelectedItem:{tag:{mp_3:4}}}] run scoreboard players set point_4 Point_m3 100
+execute as @a at @s if entity @s[nbt={SelectedItem:{tag:{mp_3:5}}}] run scoreboard players set point_5 Point_m3 100
+execute as @a at @s if entity @s[nbt={SelectedItem:{tag:{mp_3:6}}}] run scoreboard players set point_6 Point_m3 100
+execute as @a at @s if entity @s[nbt={SelectedItem:{tag:{mp_3:7}}}] run scoreboard players set point_7 Point_m3 100
+execute as @a at @s if entity @s[nbt={SelectedItem:{tag:{mp_3:8}}}] run scoreboard players set point_8 Point_m3 100
+execute as @a at @s if entity @s[nbt={SelectedItem:{tag:{mp_3:9}}}] run scoreboard players set point_9 Point_m3 100
+execute as @a at @s if entity @s[nbt={SelectedItem:{tag:{mp_3:10}}}] run scoreboard players set point_10 Point_m3 100
+execute as @a at @s if entity @s[nbt={SelectedItem:{tag:{mp_3:11}}}] run scoreboard players set point_11 Point_m3 100
+execute as @a at @s if entity @s[nbt={SelectedItem:{tag:{mp_3:12}}}] run scoreboard players set point_12 Point_m3 100
+execute as @a at @s if entity @s[nbt={SelectedItem:{tag:{mp_3:13}}}] run scoreboard players set point_13 Point_m3 100
+execute as @a at @s if entity @s[nbt={SelectedItem:{tag:{mp_3:14}}}] run scoreboard players set point_14 Point_m3 100
+execute as @a at @s if entity @s[nbt={SelectedItem:{tag:{mp_3:15}}}] run scoreboard players set point_15 Point_m3 100
+execute as @a at @s if entity @s[nbt={SelectedItem:{tag:{mp_3:16}}}] run scoreboard players set point_16 Point_m3 100
+execute as @a at @s if entity @s[nbt={SelectedItem:{tag:{mp_3:17}}}] run scoreboard players set point_17 Point_m3 100
+execute as @a at @s if entity @s[nbt={SelectedItem:{tag:{mp_3:18}}}] run scoreboard players set point_18 Point_m3 100
+execute as @a at @s if entity @s[nbt={SelectedItem:{tag:{mp_3:19}}}] run scoreboard players set point_19 Point_m3 100
