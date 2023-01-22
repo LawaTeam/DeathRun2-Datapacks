@@ -136,8 +136,8 @@ execute if score point_8 Point_m1 matches -141 run fill 32 24 -132 35 23 -135 mi
 execute if score point_9 Point_m1 matches 179 run function co_light_dr:map_points/map_1/point_9
 execute if score point_9 Point_m1 matches 0 run function co_light_dr:map_points/map_1/point_9_p
 execute if score point_9 Point_m1 matches 150..179 run execute as @e[tag=wall1] at @s run tp @s ~ ~0.1 ~
-execute if score point_9 Point_m1 matches 140..179 run execute as @e[tag=wall1] at @s run summon minecraft:falling_block ~ ~ ~ {BlockState:{Name:"red_concrete"}}
-execute if score point_9 Point_m1 matches 140..179 run execute as @e[tag=wall1] at @s run summon minecraft:falling_block ~ ~1 ~ {BlockState:{Name:"red_concrete"}}
+execute if score point_9 Point_m1 matches 150..179 run execute as @e[tag=wall1] at @s run summon minecraft:falling_block ~ ~ ~ {BlockState:{Name:"red_concrete"}}
+execute if score point_9 Point_m1 matches 150..179 run execute as @e[tag=wall1] at @s run summon minecraft:falling_block ~ ~1 ~ {BlockState:{Name:"red_concrete"}}
 execute if score point_9 Point_m1 matches 140 run function co_light_dr:map_points/map_1/point_9w
 execute if score point_9 Point_m1 matches 120 run function co_light_dr:map_points/map_1/point_9t
 execute if score point_9 Point_m1 matches 100 run function co_light_dr:map_points/map_1/point_9t
