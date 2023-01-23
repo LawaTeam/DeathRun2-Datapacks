@@ -1,5 +1,7 @@
 #By CO_LIGHT
 
+fill -63 22 100 -67 22 98 minecraft:red_concrete
+
 setblock -65 24 102 minecraft:soul_lantern
 fill -60 19 103 -70 19 109 minecraft:soul_torch replace minecraft:torch
 

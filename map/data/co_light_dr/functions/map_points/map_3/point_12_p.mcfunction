@@ -1,5 +1,9 @@
 #By CO_LIGHT
 
+fill -88 22 109 -90 22 112 minecraft:yellow_concrete
+
+kill @e[type=minecraft:armor_stand,tag=ku_lou]
+
 setblock -85 23 107 minecraft:sea_lantern
 setblock -83 24 109 minecraft:sea_lantern
 setblock -82 24 112 minecraft:sea_lantern

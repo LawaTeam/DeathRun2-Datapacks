@@ -2,7 +2,7 @@
 
 
 #副标题显示
-execute if score map_2 map_start_timer matches 225 run title @a subtitle {"text":"Map:  factory","color":"white","bold":true,"underlined":true}
+execute if score map_2 map_start_timer matches 225 run title @a subtitle {"text":"f a c t o r y","color":"white","bold":true,"underlined":true}
 
 #倒计时显示
 execute if score map_2 map_start_timer matches 200 run title @a title {"text":"10","color":"green","bold":true}
