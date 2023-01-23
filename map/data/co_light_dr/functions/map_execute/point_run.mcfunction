@@ -280,16 +280,7 @@ execute if score point_21 Point_m2 matches -141 run fill 111 36 -635 113 36 -637
 
 # Map3
 execute if score point_1 Point_m3 matches 99 run function co_light_dr:map_points/map_3/point_1
-execute if score point_1 Point_m3 matches 95 run function co_light_dr:map_points/map_3/point_1
-execute if score point_1 Point_m3 matches 90 run function co_light_dr:map_points/map_3/point_1
-execute if score point_1 Point_m3 matches 85 run function co_light_dr:map_points/map_3/point_1
-execute if score point_1 Point_m3 matches 80 run function co_light_dr:map_points/map_3/point_1
-execute if score point_1 Point_m3 matches 75 run function co_light_dr:map_points/map_3/point_1
-execute if score point_1 Point_m3 matches 70 run function co_light_dr:map_points/map_3/point_1
-execute if score point_1 Point_m3 matches 65 run function co_light_dr:map_points/map_3/point_1
-execute if score point_1 Point_m3 matches 60 run function co_light_dr:map_points/map_3/point_1
-execute if score point_1 Point_m3 matches 55 run function co_light_dr:map_points/map_3/point_1
-execute if score point_1 Point_m3 matches 50 run function co_light_dr:map_points/map_3/point_1
+
 execute if score point_1 Point_m3 matches 0 run function co_light_dr:map_points/map_3/point_1_p
 execute if score point_1 Point_m3 matches -141 run fill -38 22 -40 -40 22 -37 minecraft:lime_concrete
 
@@ -328,6 +319,16 @@ execute if score point_9 Point_m3 matches -141 run fill -38 22 82 -40 22 85 mine
 execute if score point_10 Point_m3 matches 99 run function co_light_dr:map_points/map_3/point_10
 execute if score point_10 Point_m3 matches 0 run function co_light_dr:map_points/map_3/point_10_p
 execute if score point_10 Point_m3 matches -141 run fill -63 22 100 -67 22 98 minecraft:lime_concrete
+execute if score point_10 Point_m3 matches 95 run function co_light_dr:map_points/map_3/point_10
+execute if score point_10 Point_m3 matches 90 run function co_light_dr:map_points/map_3/point_10
+execute if score point_10 Point_m3 matches 85 run function co_light_dr:map_points/map_3/point_10
+execute if score point_10 Point_m3 matches 80 run function co_light_dr:map_points/map_3/point_10
+execute if score point_10 Point_m3 matches 75 run function co_light_dr:map_points/map_3/point_10
+execute if score point_10 Point_m3 matches 70 run function co_light_dr:map_points/map_3/point_10
+execute if score point_10 Point_m3 matches 65 run function co_light_dr:map_points/map_3/point_10
+execute if score point_10 Point_m3 matches 60 run function co_light_dr:map_points/map_3/point_10
+execute if score point_10 Point_m3 matches 55 run function co_light_dr:map_points/map_3/point_10
+execute if score point_10 Point_m3 matches 50 run function co_light_dr:map_points/map_3/point_10
 
 execute as @e[type=minecraft:armor_stand,tag=ku_lou] at @s run function co_light_dr:map_points/map_3/point_11_and_12_ku_lou
 execute as @e[type=minecraft:armor_stand,tag=ku_lou] at @s unless block ~ ~-0.1 ~ air run kill @s
