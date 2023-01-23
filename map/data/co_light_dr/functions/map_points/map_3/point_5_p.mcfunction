@@ -1,5 +1,5 @@
 #By CO_LIGHT
-
+#owo
 fill -38 23 13 -39 23 16 minecraft:yellow_concrete
 
 fill -33 23 10 -34 23 11 minecraft:ice
