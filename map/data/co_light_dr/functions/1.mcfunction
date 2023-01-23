@@ -4,10 +4,10 @@
 #地图开始——倒计时设置
 execute if score map_1 map_start_timer matches 0.. run scoreboard players remove map_1 map_start_timer 1
 execute if score map_2 map_start_timer matches 0.. run scoreboard players remove map_2 map_start_timer 1
-execute if score map_2 map_start_timer matches 0.. run scoreboard players remove map_3 map_start_timer 1
+execute if score map_3 map_start_timer matches 0.. run scoreboard players remove map_3 map_start_timer 1
 
 #游戏末尾
-execute if score map2 TIME matches 0.. run scoreboard players remove map3 TIME 1
+execute if score map3 TIME matches 0.. run scoreboard players remove map3 TIME 1
 execute if score map2 TIME matches 0.. run scoreboard players remove map2 TIME 1
 execute if score map1 TIME matches 0.. run scoreboard players remove map1 TIME 1
 
@@ -132,7 +132,7 @@ fill -4 23 -128 12 23 -124 air replace minecraft:water
 fill 12 23 -129 -4 23 -129 minecraft:air
 fill 12 24 -129 -4 24 -129 minecraft:air
 #水杀人
-execute as @a[team=runner,gamemode=adventure] at @s if block ~ ~ ~ water run kill @s
+execute as @a[x=-4,y=27,z=-140,dx=15,dz=10,dy=-4,team=runner,gamemode=adventure] at @s if block ~ ~ ~ water run kill @s
 
 #execute as @a at @s if block ~ ~-0.1 ~ dirt run setblock ~ ~-1 ~ cobblestone
 #execute as @a at CO_LIGHT run setblock ~ ~-1 ~ grass_block
