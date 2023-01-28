@@ -22,7 +22,7 @@ execute as @a[x=138,y=23,z=-131,dx=6,dy=2,dz=1] at @s run title @s actionbar {"t
 #map2
 execute as @a[x=25,y=21,z=-247.79,dx=0.1,dy=-2,dz=12] at @s run spawnpoint @s ~ ~ ~ ~
 execute as @a[x=23,y=23,z=-250,dx=3,dy=-2,dz=12] at @s run title @s actionbar {"text":"> 存档点 <","color":"gold","bold":true}
-execute as @a[x=57,y=26,z=-255,dx=3,dy=-0.1,dz=6] at @s run spawnpoint @s ~ ~ ~ ~
+execute as @a[x=57,y=26,z=-255,dx=3,dy=1,dz=6] at @s run spawnpoint @s ~ ~ ~ ~
 execute as @a[x=57,y=26,z=-255,dx=3,dy=-0.1,dz=6] at @s run title @s actionbar {"text":"> 存档点 <","color":"gold","bold":true}
 execute as @a[x=71,y=26,z=-254,dx=1,dy=-0.1,dz=4] at @s run spawnpoint @s ~ ~ ~ ~
 execute as @a[x=71,y=26,z=-254,dx=1,dy=-0.1,dz=4] at @s run title @s actionbar {"text":"> 存档点 <","color":"gold","bold":true}
