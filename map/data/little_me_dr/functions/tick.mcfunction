@@ -24,4 +24,8 @@ function little_me_dr:animation/animate_tick
 # 教程图加速
 execute as @a[x=-276,y=52,z=714,dx=41,dy=6,dz=13] run effect give @s speed 1 2 true
 
+scoreboard players add z animate_z 3
+execute if score z animate_z matches 360.. run scoreboard players set z animate_z 1
+execute store result entity @e[tag=text4_test,limit=1] Pose.Head[2] float 1 run scoreboard players get z animate_z
+
 # tellraw Little_Me666 123
