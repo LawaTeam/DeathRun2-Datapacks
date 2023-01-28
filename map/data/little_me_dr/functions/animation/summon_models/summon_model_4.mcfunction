@@ -39,9 +39,7 @@ summon armor_stand -242.25 55.0 712.0 {NoGravity:1b,CustomName:'{"text":"[计时
 summon armor_stand -242.25 54.75 712.0 {NoGravity:1b,CustomName:'{"text":"规定时间内完成","bold": true,"color": "aqua"}',CustomNameVisible:1b,Invisible:1b,Tags:["text4"]}
 summon armor_stand -242.25 54.5 712.0 {NoGravity:1b,CustomName:'{"text":"实现速度巅峰","bold": true,"color": "aqua"}',CustomNameVisible:1b,Invisible:1b,Tags:["text4"]}
 
-
-
-  summon armor_stand -242.5 53.75 713.2 {CustomName:'{"text": "简易计时器","bold": true,"color": "dark_gray"}',CustomNameVisible:1b,NoGravity:1b,Invisible:1b,Tags:["text4"]}
+summon armor_stand -242.5 53.75 713.2 {CustomName:'{"text": "简易计时器","bold": true,"color": "dark_gray"}',CustomNameVisible:1b,NoGravity:1b,Invisible:1b,Tags:["text4"]}
 
 summon minecraft:armor_stand -242.50 53.50 713.00 {HurtByTimestamp: 0, Attributes: [{Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}, {Base: 20.0d, Name: "minecraft:generic.max_health"}], Invulnerable: 0b, FallFlying: 0b, ShowArms: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, FallDistance: 0.0f, DisabledSlots: 16191, DeathTime: 0s, Pose: {}, Invisible: 1b, Tags: ["text4"], Motion: [0.0d, -0.0784000015258789d, 0.0d], Small: 0b, Health: 20.0f, Air: 300s, OnGround: 1b, Rotation: [0.0f, 0.0f], HandItems: [{}, {}], Fire: -1s, ArmorItems: [{}, {}, {}, {id: "minecraft:diamond_hoe", Count: 1b, tag: {CustomModelData: 1250001, Damage: 0}}], NoBasePlate: 0b, HurtTime: 0s,NoGravity:1b}
 
