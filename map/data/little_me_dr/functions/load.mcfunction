@@ -18,5 +18,7 @@ scoreboard players set 60 animate_constant 60
 
 data merge block 41 38 1067 {Text1:'[{"text":"右键开启碰撞箱","color":"aqua","bold":true,"clickEvent":{"action":"run_command","value":"/function little_me_dr:settings/friend_collision_on"}}]',Text2:'[{"text":"当前:","color":"white","bold":true},{"text":"关闭","color":"red","bold":true}]'}
 data merge block 44 38 1067 {Text1:'[{"text":"右键开启互相伤害","color":"aqua","bold":true,"clickEvent":{"action":"run_command","value":"/function little_me_dr:settings/friend_fire_on"}}]',Text2:'[{"text":"当前:","color":"white","bold":true},{"text":"关闭","color":"red","bold":true}]'}
+setblock 44 38 1068 red_concrete
+setblock 41 38 1068 red_concrete
 
 tellraw Little_Me666 {"text":"数据包已成功加载","color":"green","bold":true}

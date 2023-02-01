@@ -4,4 +4,5 @@
 # @From    :   Sign(44 38 1067)
 
 team modify runner friendlyFire false
-data merge block 44 38 1067 {Text1:'[{"text":"右键开启碰撞箱","color":"aqua","bold":true,"clickEvent":{"action":"run_command","value":"/function little_me_dr:settings/friend_fire_on"}}]',Text2:'[{"text":"当前:","color":"white","bold":true},{"text":"关闭","color":"red","bold":true}]'}
+data merge block 44 38 1067 {Text1:'[{"text":"右键开启互相伤害","color":"aqua","bold":true,"clickEvent":{"action":"run_command","value":"/function little_me_dr:settings/friend_fire_on"}}]',Text2:'[{"text":"当前:","color":"white","bold":true},{"text":"关闭","color":"red","bold":true}]'}
+setblock 44 38 1068 red_concrete
