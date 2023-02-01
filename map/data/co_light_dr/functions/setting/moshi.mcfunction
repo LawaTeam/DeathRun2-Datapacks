@@ -1,6 +1,6 @@
 #By CO_LIGHT
 
-playsound minecraft:ui.button.click voice @a 45.88 39.44 1056.57 1 0.9
+playsound minecraft:ui.button.click voice @s 45.88 39.44 1056.57 1 0.9
 scoreboard players add 游戏模式 setting 1
 
 execute if score 游戏模式 setting matches 3 run scoreboard players reset 计时模式时间设定 setting
