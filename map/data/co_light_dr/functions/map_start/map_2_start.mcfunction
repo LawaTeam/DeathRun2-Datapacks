@@ -41,7 +41,7 @@ replaceitem entity @a[team=runner] armor.feet minecraft:diamond_boots{Enchantmen
 #设置重生点
 execute as @a at @s run spawnpoint @s
 #team相关设置
-team modify runner friendlyFire false
+# team modify runner friendlyFire false
 team modify killer friendlyFire false
 
 #游戏是否进行中

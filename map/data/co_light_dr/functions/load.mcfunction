@@ -14,8 +14,6 @@ team add runner
 team modify killer color red
 team modify runner color aqua
 
-team modify runner collisionRule pushOwnTeam
-
 team modify killer prefix {"text":"[K]","color":"red","bold":true}
 team modify runner prefix {"text":"[R]","color":"aqua","bold":true}
 
@@ -23,4 +21,3 @@ team modify runner prefix {"text":"[R]","color":"aqua","bold":true}
 #title @a subtitle {"text":"载入成功","color":"gold","bold":true}
 
 tellraw CO_LIGHT {"text":"数据包已成功加载","color":"green","bold":true}
-tellraw Little_Me666 {"text":"数据包已成功加载","color":"green","bold":true}
