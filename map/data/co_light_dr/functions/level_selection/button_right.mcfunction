@@ -11,5 +11,6 @@ execute if score map map_selection matches 2 run function little_me_dr:show_map/
 execute if score map map_selection matches 2 run scoreboard players set map map_selection -3
 
 #map=3
+execute if score map map_selection matches 3 run scoreboard players reset map3 animate_time
 execute if score map map_selection matches 3 run function little_me_dr:show_map/reset
 execute if score map map_selection matches 3 run scoreboard players set map map_selection -1
