@@ -17,6 +17,7 @@ execute if score map map_selection matches 2 run scoreboard players add map2 ani
 # 地图动画
 execute if score map map_selection matches 1 run function little_me_dr:show_map/map1
 execute if score map map_selection matches 2 run function little_me_dr:show_map/map2
+execute if score map map_selection matches 3 run function little_me_dr:show_map/map3
 
 # 教程动画高频
 function little_me_dr:animation/animate_tick
