@@ -12,6 +12,7 @@ execute as @a[nbt={ActiveEffects:[{Id:8b}]}] at @s run title @s actionbar {"text
 # 计分板地图选择加分
 execute if score map map_selection matches 1 run scoreboard players add map1 animate_time 1
 execute if score map map_selection matches 2 run scoreboard players add map2 animate_time 1
+execute if score map map_selection matches 3 run scoreboard players add map3 animate_time 1
 # execute if score map1 animate_time >= 160 animate_constant run scoreboard players set map1 animate_time 0
 
 # 地图动画
