@@ -107,7 +107,7 @@ execute if score map3 animate_time matches 73 run summon falling_block 2 31 1005
 
 execute if score map3 animate_time matches 73 run summon falling_block 1 31 1006 {Time:100,DropItem:0,BlockState:{Name:"minecraft:snow",Properties:{"layers":"2"}}}
 execute if score map3 animate_time matches 74 run summon falling_block 2 31 1006 {Time:100,DropItem:0,BlockState:{Name:"minecraft:cobblestone"}}
-execute if score map3 animate_time matches 75 run setblock 2 30 1006 snow
+execute if score map3 animate_time matches 80 run setblock 2 30 1006 snow
 
 execute positioned 2 27.5 1005 if score map3 animate_time matches 120 run function little_me_dr:show_map/reset
 execute if score map3 animate_time matches 130 run scoreboard players set map3 animate_time 0
