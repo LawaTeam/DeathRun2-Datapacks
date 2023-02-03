@@ -63,7 +63,7 @@ execute if score map3 animate_time matches 63 run summon falling_block 3 28 1007
 execute if score map3 animate_time matches 60 run summon falling_block 0 29 1003 {Time:100,DropItem:0,BlockState:{Name:"minecraft:stone"}}
 execute if score map3 animate_time matches 61 run summon falling_block 1 29 1003 {Time:100,DropItem:0,BlockState:{Name:"minecraft:stone"}}
 execute if score map3 animate_time matches 62 run summon falling_block 2 29 1003 {Time:100,DropItem:0,BlockState:{Name:"minecraft:stone"}}
-execute if score map3 animate_time matches 63 run summon falling_block 3 29 1003 {Time:100,DropItem:0,BlockState:{Name:"minecraft:andesite_slab"}}
+execute if score map3 animate_time matches 63 run summon falling_block 3 29 1003 {Time:100,DropItem:0,BlockState:{Name:"minecraft:andesite"}}
 
 execute if score map3 animate_time matches 62 run summon falling_block 0 29 1004 {Time:100,DropItem:0,BlockState:{Name:"minecraft:stone"}}
 execute if score map3 animate_time matches 63 run summon falling_block 1 29 1004 {Time:100,DropItem:0,BlockState:{Name:"minecraft:vine",Properties:{"north":"true"}}}
@@ -77,7 +77,7 @@ execute if score map3 animate_time matches 66 run summon falling_block 0 29 1006
 execute if score map3 animate_time matches 67 run setblock 1 27 1006 barrier
 execute if score map3 animate_time matches 67 run setblock 2 28 1006 barrier
 
-execute if score map3 animate_time matches 68 run summon falling_block 3 29 1007 {Time:100,DropItem:0,BlockState:{Name:"minecraft:snow",Properties:{"layers":"3"}}}
+execute if score map3 animate_time matches 68 run summon falling_block 0 29 1007 {Time:100,DropItem:0,BlockState:{Name:"minecraft:snow",Properties:{"layers":"3"}}}
 
 # 四层
 execute if score map3 animate_time matches 66 run summon falling_block 0 30 1003 {Time:100,DropItem:0,BlockState:{Name:"minecraft:snow",Properties:{"layers":"1"}}}
