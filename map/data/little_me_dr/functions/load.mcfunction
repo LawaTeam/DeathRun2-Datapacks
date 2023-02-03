@@ -21,4 +21,4 @@ data merge block 44 38 1067 {Text1:'[{"text":"右键开启互相伤害","color":
 setblock 44 38 1068 red_concrete
 setblock 41 38 1068 red_concrete
 
-tellraw Little_Me666 {"text":"数据包已成功加载","color":"green","bold":true}
+tellraw CBer_SuXuan {"text":"数据包已成功加载","color":"green","bold":true}
