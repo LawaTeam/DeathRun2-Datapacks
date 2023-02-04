@@ -4,3 +4,5 @@
 # @From    :   Tick
 
 function su_xuan_dr:prop_system/crowbar
+
+clear @a[team=killer] barrier
