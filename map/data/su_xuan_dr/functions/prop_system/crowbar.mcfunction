@@ -20,4 +20,4 @@ execute if score crowbar prop_time matches 0..60 as @a[team=killer] at @s run ti
 execute if score crowbar prop_time matches 60.. run tag @a[team=killer] remove use_crowbar
 execute if score crowbar prop_time matches 60.. as @a[team=killer] at @s run title @s clear
 execute if score crowbar prop_time matches 60.. run scoreboard players reset crowbar prop_time
-execute if score crowbar prop_time matches 60.. run replaceitem entity @a[team=killer] weapon.offhand barrier
+execute if score crowbar prop_time matches 60.. run clear @a[team=killer] barrier

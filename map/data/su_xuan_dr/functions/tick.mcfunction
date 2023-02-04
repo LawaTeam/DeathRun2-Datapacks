@@ -5,4 +5,4 @@
 
 function su_xuan_dr:prop_system/crowbar
 
-clear @a[team=killer,nbt=!{Inventory:[{id:"minecraft:barrier"}]}] barrier
+clear @a[team=killer] barrier
