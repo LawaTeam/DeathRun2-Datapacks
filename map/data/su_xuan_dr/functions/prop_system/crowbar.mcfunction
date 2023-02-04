@@ -1,7 +1,7 @@
 # @File    :   crowbar.mcfunction
 # @Time    :   2023/02/04 22:47:46
 # @Author  :   CBer_SuXuan 
-# @From    :   
+# @From    :   tick.mcfunction
 
 # 检测是否使用
 execute as @a[team=killer,limit=1,tag=!use_crowbar] if data entity @s Inventory[{Slot:-106b,id:"minecraft:wooden_hoe"}] run tag @s add use_crowbar
