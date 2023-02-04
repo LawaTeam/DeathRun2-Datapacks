@@ -1,6 +1,6 @@
 # @File    :   summon_model_2.mcfunction
 # @Time    :   2023/01/16 22:36:58
-# @Author  :   Little_Me666 
+# @Author  :   CBer_SuXuan 
 # @From    :   Command Block(-256,60,729)
 
 setblock -256 60 732 air replace

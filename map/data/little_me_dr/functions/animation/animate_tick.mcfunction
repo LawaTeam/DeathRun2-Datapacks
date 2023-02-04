@@ -1,6 +1,6 @@
 # @File    :   animate_tick.mcfunction
 # @Time    :   2023/01/16 16:35:47
-# @Author  :   Little_Me666 
+# @Author  :   CBer_SuXuan 
 # @From    :   tick.mcfunction
 
 # text1

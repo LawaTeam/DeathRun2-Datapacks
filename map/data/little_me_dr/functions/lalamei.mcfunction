@@ -1,6 +1,6 @@
 # @File    :   lalamei.mcfunction
 # @Time    :   2023/02/03 23:33:01
-# @Author  :   Little_Me666 
+# @Author  :   CBer_SuXuan 
 # @From    :   Command Block(-2 23 1036)
 
 execute if score lalamei lalamei matches 262.. run scoreboard players reset lalamei lalamei

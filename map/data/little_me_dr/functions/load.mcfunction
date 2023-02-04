@@ -1,6 +1,6 @@
 # @File    :   load.mcfunction
 # @Time    :   2023/01/16 16:41:21
-# @Author  :   Little_Me666 
+# @Author  :   CBer_SuXuan 
 # @From    :   root(Run when load datapack)
 
 scoreboard objectives add ANIMATION dummy {"text": "动画计时器","bold": true,"color": "blue"}

@@ -1,6 +1,6 @@
 # @File    :   reset.mcfunction
 # @Time    :   2023/01/16 22:01:53
-# @Author  :   Little_Me666 
+# @Author  :   CBer_SuXuan 
 # @From    :   map1.mcfunction & map2.mcfunction & button_left.mcfunction & button_right.mcfunction
 
 fill 0 25 1003 4 32 1007 air replace snow

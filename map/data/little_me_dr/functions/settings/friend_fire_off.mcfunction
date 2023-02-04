@@ -1,6 +1,6 @@
 # @File    :   friend_fire_off.mcfunction
 # @Time    :   2023/02/01 21:49:13
-# @Author  :   Little_Me666 
+# @Author  :   CBer_SuXuan 
 # @From    :   Sign(44 38 1067)
 
 team modify runner friendlyFire false

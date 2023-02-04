@@ -1,6 +1,6 @@
 # @File    :   delete_models_1.mcfunction
 # @Time    :   2023/01/16 21:00:50
-# @Author  :   Little_Me666 
+# @Author  :   CBer_SuXuan 
 # @From    :   animate_tick.mcfunction
 
 scoreboard players reset show_animate1

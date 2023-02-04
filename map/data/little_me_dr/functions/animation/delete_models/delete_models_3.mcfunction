@@ -1,6 +1,6 @@
 # @File    :   delete_models_2.mcfunction
 # @Time    :   2023/01/16 23:13:14
-# @Author  :   Little_Me666 
+# @Author  :   CBer_SuXuan 
 # @From    :   Command Block(-244,60,731)
 
 scoreboard players reset show_animate3

@@ -1,6 +1,6 @@
 # @File    :   tick.mcfunction
 # @Time    :   2023/01/16 16:41:38
-# @Author  :   Little_Me666 
+# @Author  :   CBer_SuXuan 
 # @From    :   root(Run every ticks)
 
 # 饱和
@@ -38,4 +38,4 @@ scoreboard players add z animate_z 3
 execute if score z animate_z matches 360.. run scoreboard players set z animate_z 1
 execute store result entity @e[tag=text4_test,limit=1] Pose.Head[2] float 1 run scoreboard players get z animate_z
 
-# tellraw Little_Me666 123
+# tellraw CBer_SuXuan 123

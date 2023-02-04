@@ -1,6 +1,6 @@
 # @File    :   friend_collision_on.mcfunction
 # @Time    :   2023/02/01 21:48:33
-# @Author  :   Little_Me666 
+# @Author  :   CBer_SuXuan 
 # @From    :   Sign(41 38 1067)
 
 team modify runner collisionRule always

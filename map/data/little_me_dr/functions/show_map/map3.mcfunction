@@ -1,6 +1,6 @@
 # @File    :   map3.mcfunction
 # @Time    :   2023/02/02 20:25:42
-# @Author  :   Little_Me666 
+# @Author  :   CBer_SuXuan 
 # @From    :   tick.mcfunction
 
 execute if score map3 animate_time matches 2 run summon falling_block 0 27 1007 {Time:100,DropItem:0,BlockState:{Name:"minecraft:snow_block"}}

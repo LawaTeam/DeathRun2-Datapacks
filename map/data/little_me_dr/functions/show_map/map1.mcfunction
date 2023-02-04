@@ -1,6 +1,6 @@
 # @File    :   map1.mcfunction
 # @Time    :   2023/01/16 22:01:14
-# @Author  :   Little_Me666 
+# @Author  :   CBer_SuXuan 
 # @From    :   tick.mcfunction
 
 execute if score map1 animate_time matches 2 run summon falling_block 0 27 1007 {Time:100,DropItem:0,BlockState:{Name:"minecraft:black_concrete"}}
