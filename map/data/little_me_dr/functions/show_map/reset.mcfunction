@@ -5,6 +5,7 @@
 
 fill 0 25 1003 4 32 1007 air replace snow
 fill 0 25 1003 4 32 1007 air replace vine
+fill 0 25 1003 4 32 1007 air replace lantern
 fill 0 25 1003 4 32 1007 air replace
 kill @e[x=-1,y=24,z=1002,dx=6,dy=8,dz=6,type=!player]
 particle minecraft:dust 1 1 1 1 2 27.5 1005 1.5 1.5 1.5 0 400
