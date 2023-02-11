@@ -3,5 +3,5 @@
 # @Author  :   CBer_SuXuan 
 # @From    :   Tick
 
-function su_xuan_dr:prop_system/crowbar
-function su_xuan_dr:prop_system/seethrough
+function prop:prop_system/crowbar
+function prop:prop_system/seethrough

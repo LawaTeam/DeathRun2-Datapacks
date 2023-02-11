@@ -14,7 +14,7 @@ execute as @a[tag=use_crowbar,team=killer] run scoreboard players add crowbar pr
 execute if score crowbar prop_time matches 0..60 as @a[team=runner] at @s run tp @s @s
 
 # 杀手提示
-execute if score crowbar prop_time matches 0..60 as @a[team=killer] at @s run title @s actionbar [{"text": "撬棍","bold": true,"color": "gold"},{"text": "效果正在进行","bold": true,"color":"green"}]
+execute if score crowbar prop_time matches 0..60 as @a[team=killer] at @s run title @s actionbar [{"text": "撬棍","bold": true,"color": "gold"},{"text": "效果生效中","bold": true,"color":"green"}]
 
 # 求生者提示
 execute if score crowbar prop_time matches 0..60 as @a[team=runner] at @s run title @s actionbar [{"text": "Killer使用了","bold": true,"color":"green"},{"text": "撬棍","bold": true,"color": "gold"},{"text": "技能，你突然不能移动了","bold": true,"color":"green"}]
