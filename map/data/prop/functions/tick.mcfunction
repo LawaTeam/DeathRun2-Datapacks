@@ -5,3 +5,4 @@
 
 function prop:prop_system/crowbar
 function prop:prop_system/seethrough
+function prop:prop_system/dove

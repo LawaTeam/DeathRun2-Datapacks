@@ -22,4 +22,4 @@ execute if entity @a[tag=use_seethrough,team=runner] as @a[nbt={ActiveEffects:[{
 execute if score seethrough prop_time matches -1 run effect clear @a glowing
 execute if entity @a[tag=use_seethrough] as @a[nbt=!{ActiveEffects:[{Id:24b}]}] run title @s actionbar {"text": ""}
 execute if score seethrough prop_time matches -1 as @a[tag=use_seethrough] run tag @s remove use_seethrough
-execute if score seethrough prop_time matches -1 run scoreboard players set seethrough prop_time -1
+execute if score seethrough prop_time matches -1 run scoreboard players reset seethrough prop_time
