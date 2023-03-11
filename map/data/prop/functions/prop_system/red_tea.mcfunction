@@ -2,16 +2,18 @@
 # @FilePath: red_tea.mcfunction
 # @Author: CBer_SuXuan
 # @Date: 2023-03-11 14:36:35
-# @LastEditTime: 2023-03-11 16:16:51
+# @LastEditTime: 2023-03-11 21:14:05
 # @Description: 昏睡红茶
  #--------------------------------------------------
 
 # 昏睡红茶
 # 检测是否使用
-execute as @a[team=killer,tag=!use_crowbar] if data entity @s Inventory[{Slot:-106b,id:"minecraft:stick",tag:{CustomModelData:1004}}] run tag @s add use_tea
+execute if entity @a[tag=!using] as @a[team=killer,tag=!use_crowbar] if data entity @s Inventory[{Slot:-106b,id:"minecraft:stick",tag:{CustomModelData:1004}}] run tag @s add use_tea
+execute if entity @a[tag=killer_waiting] as @a[team=killer,tag=use_tea] run tag @s add using
+execute if entity @a[tag=killer_waiting] as @a[team=killer,tag=use_tea] run tag @s remove killer_waiting
 
 # 使用中......
-execute as @a[tag=use_tea,team=killer] run replaceitem entity @s weapon.offhand barrier
+execute as @a[tag=use_tea,team=killer,nbt=!{Inventory:[{Slot:-106b,id:"minecraft:barrier"}]}] run replaceitem entity @s weapon.offhand barrier{display:{Name:'{"text": "请不要使用其他道具，会被吞掉","bold": true,"italic": false,"color": "red"}'}}
 execute as @a[tag=use_tea,team=killer] run scoreboard players add tea prop_time 1
 
 # 求生者所有负面效果
