@@ -6,10 +6,10 @@
 # @Description: tick
 #--------------------------------------------------
 
-execute as @a[team=killer,tag=!killer_waiting,tag=!using] run tag @a remove runner_waiting
-execute as @a[team=killer,tag=!killer_waiting,tag=!using] run tag @a add killer_waiting
-execute as @a[team=runner,tag=!runner_waiting,tag=!using] run tag @a remove killer_waiting
-execute as @a[team=runner,tag=!runner_waiting,tag=!using] run tag @a add runner_waiting
+execute as @a[team=killer,tag=!killer_waiting,tag=!using] run tag @s remove runner_waiting
+execute as @a[team=killer,tag=!killer_waiting,tag=!using] run tag @s add killer_waiting
+execute as @a[team=runner,tag=!runner_waiting,tag=!using] run tag @s remove killer_waiting
+execute as @a[team=runner,tag=!runner_waiting,tag=!using] run tag @s add runner_waiting
 function prop:prop_system/crowbar
 function prop:prop_system/seethrough
 function prop:prop_system/dove
