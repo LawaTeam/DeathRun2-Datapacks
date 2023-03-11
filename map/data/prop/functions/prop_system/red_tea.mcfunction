@@ -40,5 +40,6 @@ execute if score tea prop_time matches 100.. run effect clear @a[team=runner] wi
 execute if entity @a[tag=use_tea] as @a[nbt=!{ActiveEffects:[{Id:2b}]},team=runner] run title @s actionbar {"text": ""}
 execute if score tea prop_time matches 100.. run clear @a[team=killer] barrier
 execute if score tea prop_time matches 100.. run tag @a remove use_tea
+execute if score tea prop_time matches 100.. run tag @a remove using
 execute if score tea prop_time matches 100.. as @a[team=killer] run title @s actionbar {"text": ""}
 execute if score tea prop_time matches 100.. run scoreboard players reset tea prop_time
