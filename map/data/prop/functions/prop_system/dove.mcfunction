@@ -2,7 +2,7 @@
 # @FilePath: dove.mcfunction
 # @Author: CBer_SuXuan
 # @Date: 2023-03-11 12:10:21
-# @LastEditTime: 2023-03-11 21:13:53
+# @LastEditTime: 2023-03-11 21:33:05
 # @Description: 
 #--------------------------------------------------
 
@@ -23,7 +23,7 @@ execute if entity @a[tag=use_dove] as @a[nbt=!{ActiveEffects:[{Id:1b}]},team=run
 execute if score dove prop_time matches 0..40 as @a[team=killer] at @s run title @s actionbar [{"text": "德芙","bold": true,"color": "gold"},{"text": "效果正在进行","bold": true,"color":"green"}]
 
 # 求生者文字显示
-execute if entity @a[team=runner] as @a[nbt={ActiveEffects:[{Id:1b}]}] run title @s actionbar [{"text": "德芙~","bold": true,"color":"gold"},{"text": "纵享新丝滑~","bold": true,"color": "aqua"}]
+execute if entity @a[team=runner] as @a[nbt={ActiveEffects:[{Id:1b,Amplifier:50b}]}] run title @s actionbar [{"text": "德芙~","bold": true,"color":"gold"},{"text": "纵享新丝滑~","bold": true,"color": "aqua"}]
 
 # 效果结束
 execute if score dove prop_time matches 40.. run effect clear @a[team=runner] speed
