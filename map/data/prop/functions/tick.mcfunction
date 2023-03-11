@@ -2,7 +2,7 @@
 # @FilePath: tick.mcfunction
 # @Author: CBer_SuXuan
 # @Date: 2023-03-11 12:10:21
-# @LastEditTime: 2023-03-11 16:37:55
+# @LastEditTime: 2023-03-11 21:19:46
 # @Description: tick
 #--------------------------------------------------
 
