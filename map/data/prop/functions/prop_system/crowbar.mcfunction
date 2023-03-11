@@ -1,11 +1,14 @@
-# @File    :   crowbar.mcfunction
-# @Time    :   2023/02/04 22:47:46
-# @Author  :   CBer_SuXuan 
-# @From    :   tick.mcfunction
+#--------------------------------------------------
+# @FilePath: crowbar.mcfunction
+# @Author: CBer_SuXuan
+# @Date: 2023-03-11 12:10:21
+# @LastEditTime: 2023-03-11 16:08:04
+# @Description: 
+#--------------------------------------------------
 
 # 撬棍
 # 检测是否使用
-execute as @a[team=killer,tag=!use_crowbar] if data entity @s Inventory[{Slot:-106b,id:"minecraft:wooden_hoe"}] run tag @s add use_crowbar
+execute as @a[team=killer,tag=!use_crowbar] if data entity @s Inventory[{Slot:-106b,id:"minecraft:stick",tag:{CustomModelData:1002}}] run tag @s add use_crowbar
 
 # 使用中...
 execute as @a[tag=use_crowbar,team=killer] run replaceitem entity @s weapon.offhand barrier
