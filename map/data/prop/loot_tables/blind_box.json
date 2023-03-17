@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:1002,display:{Name:'[{\"text\": \"撬棍\",\"bold\": true,\"italic\": false,\"color\": \"aqua\"}]'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:1003,display:{Name:'[{\"text\": \"德芙\",\"bold\": true,\"italic\": false,\"color\": \"dark_blue\"}]'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:1004,display:{Name:'[{\"text\": \"昏睡红茶\",\"bold\": true,\"italic\": false,\"color\": \"red\"}]'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:1005,display:{Name:'[{\"text\": \"洞察全局\",\"bold\": true,\"italic\": false,\"color\": \"white\"}]'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
