@@ -15,4 +15,4 @@ function prop:prop_system/seethrough
 function prop:prop_system/dove
 function prop:prop_system/cake
 function prop:prop_system/red_tea
-function prop:prop_system/box
+function prop:prop_system/box_check/box

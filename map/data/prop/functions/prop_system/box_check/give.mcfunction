@@ -13,3 +13,7 @@ execute as @s[tag=item_12] run tag @s add full
 replaceitem entity @s weapon.offhand air
 execute as @s[tag=full] run function prop:blind_box
 tag @s remove full
+tag @s remove item_0
+tag @s remove item_1
+tag @s remove item_2
+tag @s remove item_12
