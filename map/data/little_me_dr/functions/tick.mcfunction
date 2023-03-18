@@ -27,7 +27,7 @@ function little_me_dr:animation/animate_tick
 execute as @a[x=-276,y=52,z=714,dx=41,dy=6,dz=13] run effect give @s speed 1 2 true
 
 # 传送卷轴
-execute as @a[x=-276,y=52,z=714,dx=41,dy=6,dz=13,tag=!paper] run replaceitem entity @s hotbar.4 paper{display:{Name:'[{"text":"回城卷轴","color":"gold","italic":false,"bold":true},{"text":"(","bold": true,"color":"aqua","italic": false},{"text":"丢弃物品","bold": true,"color":"dark_aqua"},{"text":"以回到大厅)","bold": true,"color":"aqua","italic": false}]'}} 1
+execute as @a[x=-276,y=52,z=714,dx=41,dy=6,dz=13,tag=!paper] run replaceitem entity @s hotbar.4 paper{display:{Name:'[{"text":"回城卷轴","color":"gold","italic":false,"bold":true},{"text":"(","bold": true,"color":"aqua","italic": false},{"text":"丢弃物品","bold": true,"color":"dark_aqua"},{"text":"以回到大厅)","bold": true,"color":"aqua","italic": false}]'},CustomModelData:100} 1
 execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper"}}] at @s run tp @p 2.5 26.0 1038.5 179.4 17.2
 execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper"}}] at @s run kill @s
 execute as @a[x=-276,y=52,z=714,dx=41,dy=6,dz=13,tag=!paper] run tag @s add paper
