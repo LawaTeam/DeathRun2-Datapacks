@@ -1,10 +1,8 @@
-#--------------------------------------------------
-# @FilePath: dove.mcfunction
-# @Author: CBer_SuXuan
-# @Date: 2023-03-11 12:10:21
-# @LastEditTime: 2023-03-11 21:33:05
-# @Description: 
-#--------------------------------------------------
+#file       :3_dove.mcfunction
+#Date       :2023/03/24 22:39:32
+#Author     :CBer_SuXuan
+#From       :
+#Description:
 
 # 德芙
 # 检测是否使用
@@ -17,13 +15,13 @@ execute as @a[tag=use_dove,team=killer,nbt=!{Inventory:[{Slot:-106b,id:"minecraf
 execute as @a[tag=use_dove,team=killer] run scoreboard players add dove prop_time 1
 
 # 求生者加速
-execute if entity @a[tag=use_dove] as @a[nbt=!{ActiveEffects:[{Id:1b}]},team=runner] run effect give @s speed 999999 50
+execute if entity @a[tag=use_dove] as @a[nbt=!{ActiveEffects:[{Id:1b}]},team=runner] run effect give @s speed 999999 49
 
 # 杀手文字显示
-execute if score dove prop_time matches 0..40 as @a[team=killer] at @s run title @s actionbar [{"text": "德芙","bold": true,"color": "gold"},{"text": "效果正在进行","bold": true,"color":"green"}]
+execute if score dove prop_time matches 0..40 as @a[team=killer] at @s run title @s actionbar [{"text": "x芙","bold": true,"color": "gold"},{"text": "效果正在进行","bold": true,"color":"green"}]
 
 # 求生者文字显示
-execute if entity @a[team=runner] as @a[nbt={ActiveEffects:[{Id:1b,Amplifier:50b}]}] run title @s actionbar [{"text": "德芙~","bold": true,"color":"gold"},{"text": "纵享新丝滑~","bold": true,"color": "aqua"}]
+execute if entity @a[team=runner] as @a[nbt={ActiveEffects:[{Id:1b,Amplifier:50b}]}] run title @s actionbar [{"text": "x芙~","bold": true,"color":"gold"},{"text": "纵享新丝滑~","bold": true,"color": "aqua"}]
 
 # 效果结束
 execute if score dove prop_time matches 40.. run effect clear @a[team=runner] speed
@@ -33,3 +31,5 @@ execute if score dove prop_time matches 40.. run tag @a remove use_dove
 execute if score dove prop_time matches 40.. run tag @a remove using
 execute if score dove prop_time matches 40.. as @a[team=killer] run title @s actionbar {"text": ""}
 execute if score dove prop_time matches 40.. run scoreboard players reset dove prop_time
+
+

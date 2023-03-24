@@ -28,7 +28,7 @@ execute if entity @a[tag=use_tea] as @a[nbt=!{ActiveEffects:[{Id:20b}]},team=run
 execute if score tea prop_time matches 0..100 as @a[team=killer] at @s run title @s actionbar [{"text": "昏睡红茶","bold": true,"color": "red"},{"text": "效果正在进行","bold": true,"color":"green"}]
 
 # 求生者文字显示
-execute if entity @a[team=runner] as @a[nbt={ActiveEffects:[{Id:2b}]}] run title @s actionbar [{"text": "昏睡红茶","bold": true,"color":"red"},{"text": "哼哼啊啊啊啊啊啊啊啊啊","bold": true,"color": "aqua"}]
+execute if entity @a[team=runner] as @a[nbt={ActiveEffects:[{Id:2b}]}] run title @s actionbar [{"text": "哼哼啊啊啊啊啊啊啊啊啊！","bold": true,"color": "aqua"}]
 
 # 效果结束
 execute if score tea prop_time matches 100.. run effect clear @a[team=runner] slowness

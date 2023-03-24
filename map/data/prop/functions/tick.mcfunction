@@ -15,3 +15,4 @@ function prop:prop_system/3_dove
 function prop:prop_system/4_red_tea
 function prop:prop_system/5_seethrough
 function prop:prop_system/6_heavy
+function prop:prop_system/7_xmai
