@@ -8,6 +8,9 @@ execute as @a[team=killer,tag=!killer_waiting,tag=!using] run tag @s remove runn
 execute as @a[team=killer,tag=!killer_waiting,tag=!using] run tag @s add killer_waiting
 execute as @a[team=runner,tag=!runner_waiting,tag=!using] run tag @s remove killer_waiting
 execute as @a[team=runner,tag=!runner_waiting,tag=!using] run tag @s add runner_waiting
+kill @e[type=item,nbt={Item:{id:"minecraft:white_shulker_box"}}]
+kill @e[type=item,nbt={Item:{id:"minecraft:red_shulker_box"}}]
+kill @e[type=item,nbt={Item:{id:"minecraft:light_blue_shulker_box"}}]
 function prop:prop_system/0_box_check/box
 function prop:prop_system/1_cake
 function prop:prop_system/2_crowbar

@@ -18,7 +18,8 @@ execute if score t800 prop_time matches -1 run scoreboard players reset t800 pro
 
 # 杀手效果
 # 检测是否使用
-execute if entity @a[tag=!using] as @a[team=killer,tag=!use_t800_killer] if data entity @s Inventory[{Slot:-106b,id:"minecraft:stick",tag:{CustomModelData:1009}}] run scoreboard players add t800_killer prop_time 100
+execute if entity @a[tag=!using] as @a[team=killer,tag=!use_t800_killer] if data entity @s Inventory[{Slot:-106b,id:"minecraft:stick",tag:{CustomModelData:1009}}] run scoreboard players add t800_killer prop_time 190
+execute if entity @a[tag=!using] as @a[team=killer,tag=!use_t800_killer] if data entity @s Inventory[{Slot:-106b,id:"minecraft:stick",tag:{CustomModelData:1009}}] run gamerule naturalRegeneration false
 execute if entity @a[tag=!using] as @a[team=killer,tag=!use_t800_killer] if data entity @s Inventory[{Slot:-106b,id:"minecraft:stick",tag:{CustomModelData:1009}}] run tag @s add use_t800_killer
 execute if entity @a[tag=killer_waiting] as @a[team=killer,tag=use_t800_killer] run tag @s add using
 execute if entity @a[tag=killer_waiting] as @a[team=killer,tag=use_t800_killer] run tag @s remove killer_waiting
@@ -46,5 +47,6 @@ execute if score t800_killer prop_time matches -1 run title @a actionbar {"text"
 execute if score t800_killer prop_time matches -1 run clear @a[tag=use_t800_killer] barrier
 execute if score t800_killer prop_time matches -1 run tag @a remove use_t800_killer
 execute if score t800_killer prop_time matches -1 run tag @a remove using
+execute if score t800_killer prop_time matches -1 run gamerule naturalRegeneration true
 execute if score t800_killer prop_time matches -1 as @a[team=runner] at @s run fill ~-5 ~-5 ~-5 ~5 ~5 ~5 air replace fire
 execute if score t800_killer prop_time matches -1 run scoreboard players reset t800_killer prop_time
