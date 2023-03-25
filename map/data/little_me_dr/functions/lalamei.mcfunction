@@ -7,7 +7,7 @@ execute if score lalamei lalamei matches 262.. run scoreboard players reset lala
 scoreboard players add lalamei lalamei 1
 execute if score lalamei lalamei matches 1 run tellraw @a[x=2,y=18,z=1036,dx=6,dy=3,dz=4] [{"text":"拉拉妹 joined the game","color":"yellow","bold":false}]
 execute if score lalamei lalamei matches 1 run playsound minecraft:ui.button.click voice @a[x=2,y=18,z=1036,dx=6,dy=3,dz=4]
-execute if score lalamei lalamei matches 20 run tellraw @a[x=2,y=18,z=1036,dx=6,dy=3,dz=4] [{"text":"<拉拉妹> ","color":"white","bold":false},{"text":"可爱的玩家们你好!这里是lawa团队的成员拉拉妹!","color":"aqua","bold":true}]
+execute if score lalamei lalamei matches 20 run tellraw @a[x=2,y=18,z=1036,dx=6,dy=3,dz=4] [{"text":"<拉拉妹> ","color":"white","bold":false},{"text":"可爱的玩家们你们好!这里是lawa团队的成员拉拉妹!","color":"aqua","bold":true}]
 execute if score lalamei lalamei matches 20 run playsound minecraft:ui.button.click voice @a[x=2,y=18,z=1036,dx=6,dy=3,dz=4]
 execute if score lalamei lalamei matches 60 run tellraw @a[x=2,y=18,z=1036,dx=6,dy=3,dz=4] [{"text":"<拉拉妹> \n","color":"white","bold":false},{"text":"首先，感谢您下载本地图!其次，LW也算是刚刚起步的团队，十分欢迎有才能的小伙伴加入!","color":"aqua","bold":true}]
 execute if score lalamei lalamei matches 60 run playsound minecraft:ui.button.click voice @a[x=2,y=18,z=1036,dx=6,dy=3,dz=4]
