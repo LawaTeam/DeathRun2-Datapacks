@@ -11,7 +11,6 @@ execute as @e[tag=rpg] at @s run kill @a[distance=..3,team=runner]
 execute if entity @e[tag=rpg] run kill @e[tag=rpg]
 
 execute if score rpg_timer prop_time matches 0.. run scoreboard players remove rpg_timer prop_time 1
-execute if score rpg_timer prop_time matches -1 run function prop:prop_system/0_sight_detect/0_start
 execute if score rpg_timer prop_time matches -1 run scoreboard players reset rpg_timer
 
 # execute if entity @e[tag=raise] run scoreboard players add raise prop_time 1
