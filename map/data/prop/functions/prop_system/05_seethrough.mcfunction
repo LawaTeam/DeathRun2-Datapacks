@@ -11,9 +11,10 @@
 execute if score seethrough prop_time matches 0.. run scoreboard players remove seethrough prop_time 1
 
 # 道具检测
-execute as @a[tag=!use_seethrough] if data entity @s Inventory[{Slot:-106b,id:"minecraft:stick",tag:{CustomModelData:1005}}] run scoreboard players add seethrough prop_time 101
-execute as @a[tag=!use_seethrough] if data entity @s Inventory[{Slot:-106b,id:"minecraft:stick",tag:{CustomModelData:1005}}] run tag @s add use_seethrough
-execute as @a[tag=use_seethrough] if data entity @s Inventory[{Slot:-106b,id:"minecraft:stick",tag:{CustomModelData:1005}}] run replaceitem entity @s weapon.offhand air
+execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:stick",tag:{CustomModelData:1005}}]}] run scoreboard players add seethrough prop_time 101
+execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:stick",tag:{CustomModelData:1005}}]}] run tellraw @a [{"text": "玩家","bold": true,"color":"gold"},{"selector":"@s","bold": true,"color": "red"},{"text": "使用了道具 [洞察全局]","bold": true,"color": "gold"}]
+execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:stick",tag:{CustomModelData:1005}}]}] run tag @s add use_seethrough
+execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:stick",tag:{CustomModelData:1005}}]}] run replaceitem entity @s weapon.offhand air
 
 # 效果
 execute if score seethrough prop_time matches 0.. as @a[nbt=!{ActiveEffects:[{Id:24b}]}] run effect give @a glowing 999999 1 true
@@ -24,6 +25,6 @@ execute if entity @a[tag=use_seethrough,team=runner] as @a[nbt={ActiveEffects:[{
 
 # 效果结束
 execute if score seethrough prop_time matches -1 run effect clear @a glowing
-execute if entity @a[tag=use_seethrough] as @a[nbt=!{ActiveEffects:[{Id:24b}]}] run title @s actionbar {"text": ""}
+execute if score seethrough prop_time matches -1 run title @a actionbar {"text": ""}
 execute if score seethrough prop_time matches -1 as @a[tag=use_seethrough] run tag @s remove use_seethrough
 execute if score seethrough prop_time matches -1 run scoreboard players reset seethrough prop_time
