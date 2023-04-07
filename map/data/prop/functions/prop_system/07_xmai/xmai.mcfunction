@@ -5,7 +5,7 @@
 #Description:
 
 # 炫迈
-effect give @s speed 5 0
+effect give @s speed 5 0 true
 tag @s add use_xmai
 
 tellraw @s [{"text": "[系统] ","bold": true,"color":"gold"},{"selector":"@s","bold": true,"color": "aqua"},{"text": "使用了道具 [","bold": true,"color":"gold"},{"text": "x迈","bold": true, "color":"green"},{"text": "] ","bold": true,"color":"gold"},{"text": "根本停不下来!","bold": true,"color": "gold"}]
