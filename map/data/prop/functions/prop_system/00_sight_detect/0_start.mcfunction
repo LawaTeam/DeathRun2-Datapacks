@@ -4,4 +4,4 @@
 #From       :
 #Description:
 
-execute as @a[team=killer] at @s positioned ~ ~2 ~ run function prop:prop_system/0_sight_detect/1_repeat
+execute as @a[team=killer] at @s positioned ~ ~2 ~ run function prop:prop_system/00_sight_detect/1_repeat
