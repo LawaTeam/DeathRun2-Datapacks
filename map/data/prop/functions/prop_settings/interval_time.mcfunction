@@ -4,3 +4,4 @@
 #From       :
 #Description:
 
+scoreboard players operation timer prop_settings = interval prop_settings
