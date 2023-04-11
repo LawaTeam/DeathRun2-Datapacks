@@ -4,8 +4,6 @@
 #From       :
 #Description:
 
-
-
 function prop:prop_system/00_box_check/box
 
 # 撬棍(killer)
@@ -47,3 +45,5 @@ function prop:prop_system/11_dachang/tick
 
 # 吸吸雾者魏俊杰(runner)
 execute as @a[team=runner,nbt={Inventory:[{Slot:-106b,id:"minecraft:stick",tag:{CustomModelData:1012}}]}] at @s run function prop:prop_system/12_junjie/junjie
+
+execute as @a[nbt={Inventory:[{tag:{CustomModelData:1000}}]}] unless entity @s[nbt={Inventory:[{tag:{CustomModelData:1000},Slot:0b}]}] run function prop:prop_settings/wrong_place

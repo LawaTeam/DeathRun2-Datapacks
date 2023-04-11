@@ -46,3 +46,6 @@ team modify killer friendlyFire false
 
 #游戏是否进行中
 scoreboard players set 游戏状态 run 1
+
+#开始时给予一个道具
+execute if score 开关 prop_settings matches 1 run function prop:blind_box

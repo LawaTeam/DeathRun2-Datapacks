@@ -5,6 +5,8 @@ scoreboard objectives setdisplay sidebar setting
 
 scoreboard players set 游戏状态 run 0
 
+function prop:prop_settings/interval_time
+
 scoreboard players set map1 TIME -1
 scoreboard players set map2 TIME -1
 

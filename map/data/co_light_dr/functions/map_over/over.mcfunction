@@ -5,6 +5,8 @@ scoreboard objectives setdisplay sidebar setting
 
 scoreboard players set 游戏状态 run 0
 
+function prop:prop_settings/interval_time
+
 tp @a[tag=spectator] 8.04 26.00 1037.74
 
 tp @a[tag=player] 8.04 26.00 1037.74

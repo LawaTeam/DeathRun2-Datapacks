@@ -17,3 +17,6 @@ kill @e[type=item,nbt={Item:{id:"minecraft:light_blue_shulker_box"}}]
 
 execute if score 游戏状态 run matches 1 if score 开关 prop_settings matches 1 run function prop:prop_system/tick
 execute if score 游戏状态 run matches 0 if score 模拟开局 prop_settings matches 1 if score 开关 prop_settings matches 1 run function prop:prop_system/tick
+
+execute if score 开关 prop_settings matches 0 unless block 23 39 1059 lantern run setblock 23 40 1059 minecraft:spruce_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
+execute if score 开关 prop_settings matches 0 unless block 23 39 1059 lantern run setblock 23 39 1059 minecraft:lantern[hanging=true,waterlogged=false]
