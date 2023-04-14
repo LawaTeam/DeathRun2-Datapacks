@@ -4,6 +4,6 @@
 #From       :
 #Description:
 
-tellraw @s [{"text": "[系统] ","bold": true, "color": "gold"},{"text": "禁止移动盲盒位置","bold": true,"color": "red"}]
+tellraw @s [{"text": "[系统] ","bold": true, "color": "gold"},{"text": "禁止移动签筒位置","bold": true,"color": "red"}]
 clear @s stick{CustomModelData:1000}
 function prop:blind_box

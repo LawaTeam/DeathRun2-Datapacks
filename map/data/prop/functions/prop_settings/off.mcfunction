@@ -4,10 +4,10 @@
 #From       :
 #Description:
 
-data merge block 27 38 1062 {Color:"black",Text4:'{"text":""}',Text3:'{"text":""}',Text2:'{"bold":true,"color":"white","extra":[{"bold":true,"color":"red","text":"不加入道具"}],"text":"当前:"}',Text1:'{"bold":true,"color":"aqua","clickEvent":{"action":"run_command","value":"/function prop:prop_settings/on"},"text":"右键加入道具"}'}
+data merge block 27 38 1062 {Color:"black",Text4:'{"text":""}',Text3:'{"text":""}',Text2:'{"bold":true,"color":"white","extra":[{"bold":true,"color":"red","text":"不加入神签"}],"text":"当前:"}',Text1:'{"bold":true,"color":"aqua","clickEvent":{"action":"run_command","value":"/function prop:prop_settings/on"},"text":"右键加入神签"}'}
 setblock 27 38 1063 red_concrete
 scoreboard players set 开关 prop_settings 0
-team modify daoju suffix {"text": " 否","bold": true, "color": "gold"}
+team modify shenqian suffix {"text": " 否","bold": true, "color": "gold"}
 execute as @s at @s run playsound minecraft:ui.button.click voice @s ~ ~ ~ 1 0.9
 
 setblock 24 39 1061 air

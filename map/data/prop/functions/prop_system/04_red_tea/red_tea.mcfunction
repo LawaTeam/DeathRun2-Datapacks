@@ -4,7 +4,7 @@
 #From       :
 #Description:
 
-tellraw @a [{"text": "[系统] ","bold": true,"color":"gold"},{"selector":"@s","bold": true,"color": "red"},{"text": "使用了道具 [","bold": true,"color":"gold"},{"text": "昏睡红茶","bold": true, "color":"red"},{"text": "] ","bold": true,"color":"gold"},{"text": "哼哼啊啊啊啊啊啊啊啊啊啊!","bold": true,"color": "red"}]
+tellraw @a [{"text": "[系统] ","bold": true,"color":"gold"},{"selector":"@s","bold": true,"color": "red"},{"text": "使用了神签 [","bold": true,"color":"gold"},{"text": "昏睡红茶","bold": true, "color":"red"},{"text": "] ","bold": true,"color":"gold"},{"text": "哼哼啊啊啊啊啊啊啊啊啊啊!","bold": true,"color": "red"}]
 replaceitem entity @s weapon.offhand air
 
 effect give @a[team=runner] slowness 10 1 true

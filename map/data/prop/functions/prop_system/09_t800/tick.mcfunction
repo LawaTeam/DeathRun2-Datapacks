@@ -13,7 +13,7 @@ execute if score t800 prop_time matches -1 run scoreboard players reset t800 pro
 
 # killer
 execute if score t800_killer prop_time matches 0.. run scoreboard players remove t800_killer prop_time 1
-# execute as @a[tag=use_t800_killer,team=killer,nbt=!{Inventory:[{Slot:-106b,id:"minecraft:barrier"}]}] run replaceitem entity @s weapon.offhand barrier{display:{Name:'{"text": "请不要使用其他道具，会被吞掉","bold": true,"italic": false,"color": "red"}'}}
+# execute as @a[tag=use_t800_killer,team=killer,nbt=!{Inventory:[{Slot:-106b,id:"minecraft:barrier"}]}] run replaceitem entity @s weapon.offhand barrier{display:{Name:'{"text": "请不要使用其他神签，会被吞掉","bold": true,"italic": false,"color": "red"}'}}
 
 # 求生者着火
 execute if entity @a[tag=use_t800_killer] as @a[team=runner] at @s run fill ~ ~ ~ ~ ~ ~ fire replace air

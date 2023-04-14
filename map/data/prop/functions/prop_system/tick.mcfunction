@@ -47,3 +47,5 @@ function prop:prop_system/11_dachang/tick
 execute as @a[team=runner,nbt={Inventory:[{Slot:-106b,id:"minecraft:stick",tag:{CustomModelData:1012}}]}] at @s run function prop:prop_system/12_junjie/junjie
 
 execute as @a[nbt={Inventory:[{tag:{CustomModelData:1000}}]}] unless entity @s[nbt={Inventory:[{tag:{CustomModelData:1000},Slot:0b}]}] run function prop:prop_settings/wrong_place
+
+function prop:prop_settings/delete

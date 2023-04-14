@@ -8,7 +8,7 @@ tag @s remove gived
 
 execute if entity @s[team=killer] run function prop:prop_system/00_box_check/killer
 execute if entity @s[team=runner] run function prop:prop_system/00_box_check/runner
-execute as @s[tag=item_12] run tellraw @s {"text": "道具栏已满，无法获取道具！","bold": true,"color": "red"} 
+execute as @s[tag=item_12] run tellraw @s [{"text": "[系统] ","bold": true,"color": "gold"},{"text": "神签栏已满，无法获取神签！","bold": true,"color": "red"}]
 execute as @s[tag=item_12] run tag @s add full
 replaceitem entity @s weapon.offhand air
 execute as @s[tag=full] run function prop:blind_box
