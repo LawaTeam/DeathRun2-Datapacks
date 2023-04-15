@@ -1,6 +1,6 @@
 #By CO_LIGHT
 
-execute at @a[team=killer,nbt={Inventory:[{id:"minecraft:carrot_on_a_stick"}]}] at @s run replaceitem entity @s weapon.offhand air
+execute at @a[team=killer,nbt={Inventory:[{id:"minecraft:carrot_on_a_stick"}]}] unless entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:stick"}]}] at @s run replaceitem entity @s weapon.offhand air
 
 execute at @a[team=killer] at @s run replaceitem entity @s container.9 air
 execute at @a[team=killer] at @s run replaceitem entity @s container.10 air

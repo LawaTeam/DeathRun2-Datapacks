@@ -46,6 +46,13 @@ function prop:prop_system/11_dachang/tick
 # 吸吸雾者魏俊杰(runner)
 execute as @a[team=runner,nbt={Inventory:[{Slot:-106b,id:"minecraft:stick",tag:{CustomModelData:1012}}]}] at @s run function prop:prop_system/12_junjie/junjie
 
+# 时间扭曲曲(runner)
+execute as @a[team=runner,nbt={Inventory:[{Slot:-106b,id:"minecraft:stick",tag:{CustomModelData:1013}}]}] at @s run function prop:prop_system/13_niuqu/niuqu
+
 execute as @a[nbt={Inventory:[{tag:{CustomModelData:1000}}]}] unless entity @s[nbt={Inventory:[{tag:{CustomModelData:1000},Slot:0b}]}] run function prop:prop_settings/wrong_place
 
 function prop:prop_settings/delete
+
+execute as @a[nbt={SelectedItem:{id:"minecraft:stick"}}] at @s run function prop:prop_settings/show_function
+execute as @a[tag=hold_stick,nbt=!{SelectedItem:{id:"minecraft:stick"}}] run title @s actionbar {"text": ""}
+execute as @a[tag=hold_stick,nbt=!{SelectedItem:{id:"minecraft:stick"}}] run tag @s remove hold_stick

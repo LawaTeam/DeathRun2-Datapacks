@@ -6,12 +6,10 @@
 
 execute if score timer prop_settings matches 0.. run scoreboard players remove timer prop_settings 1
 
-execute if score timer prop_settings matches 199 run tellraw @a [{"text": "[系统] ","bold": true,"color": "gold"},{"text": "距离下一次发放签筒还有","bold": true,"color": "green"},{"text": "10","bold": true,"color": "aqua"},{"text": "秒!","bold": true,"color": "green"}]
-execute if score timer prop_settings matches 99 run tellraw @a [{"text": "[系统] ","bold": true,"color": "gold"},{"text": "距离下一次发放签筒还有","bold": true,"color": "green"},{"text": "5","bold": true,"color": "aqua"},{"text": "秒!","bold": true,"color": "green"}]
-execute if score timer prop_settings matches 79 run tellraw @a [{"text": "[系统] ","bold": true,"color": "gold"},{"text": "距离下一次发放签筒还有","bold": true,"color": "green"},{"text": "4","bold": true,"color": "aqua"},{"text": "秒!","bold": true,"color": "green"}]
-execute if score timer prop_settings matches 59 run tellraw @a [{"text": "[系统] ","bold": true,"color": "gold"},{"text": "距离下一次发放签筒还有","bold": true,"color": "green"},{"text": "3","bold": true,"color": "aqua"},{"text": "秒!","bold": true,"color": "green"}]
-execute if score timer prop_settings matches 39 run tellraw @a [{"text": "[系统] ","bold": true,"color": "gold"},{"text": "距离下一次发放签筒还有","bold": true,"color": "green"},{"text": "2","bold": true,"color": "aqua"},{"text": "秒!","bold": true,"color": "green"}]
-execute if score timer prop_settings matches 19 run tellraw @a [{"text": "[系统] ","bold": true,"color": "gold"},{"text": "距离下一次发放签筒还有","bold": true,"color": "green"},{"text": "1","bold": true,"color": "aqua"},{"text": "秒!","bold": true,"color": "green"}]
+execute if score timer prop_settings matches 199 run tellraw @a [{"text": "[系统] ","bold": true,"color": "gold"},{"text": "10","bold": true,"color": "aqua"},{"text": "秒后发放签筒!","bold": true,"color": "green"}]
+execute if score timer prop_settings matches 59 run tellraw @a [{"text": "[系统] ","bold": true,"color": "gold"},{"text": "3","bold": true,"color": "aqua"},{"text": "秒后发放签筒!","bold": true,"color": "green"}]
+execute if score timer prop_settings matches 39 run tellraw @a [{"text": "[系统] ","bold": true,"color": "gold"},{"text": "2","bold": true,"color": "aqua"},{"text": "秒后发放签筒!","bold": true,"color": "green"}]
+execute if score timer prop_settings matches 19 run tellraw @a [{"text": "[系统] ","bold": true,"color": "gold"},{"text": "1","bold": true,"color": "aqua"},{"text": "秒后发放签筒!","bold": true,"color": "green"}]
 
 execute if score timer prop_settings matches -1 as @a[nbt=!{Inventory:[{tag:{CustomModelData:1000}}]}] at @s run tag @s add need_give
 execute if score timer prop_settings matches -1 as @a[tag=need_give] at @s run function prop:blind_box
