@@ -16,7 +16,7 @@ setblock 24 38 1061 air
 setblock 24 38 1059 air
 fill 23 38 1058 23 41 1062 air replace
 
-particle minecraft:dust 1 1 1 1 23 39 1060 1 1 1 0 400 normal @a
+particle minecraft:dust 0.314 0.063 0.063 1 23 39 1060 1 1 1 0 400 normal @a
 setblock 25 38 1062 minecraft:dark_oak_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
 setblock 24 38 1062 minecraft:dark_oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
 setblock 23 38 1062 minecraft:dark_oak_stairs[facing=south,half=bottom,shape=inner_right,waterlogged=false]

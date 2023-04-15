@@ -12,7 +12,7 @@ execute as @s at @s run playsound minecraft:ui.button.click voice @s ~ ~ ~ 1 0.9
 
 setblock 24 38 1059 air
 fill 23 40 1062 25 38 1059 air replace
-particle minecraft:dust 1 1 1 1 24 39 1060.5 1 1 1 0 400
+particle minecraft:dust 0.275 0.149 0.106 1 24 39 1060.5 1 1 1 0 400
 
 setblock 23 38 1062 minecraft:dark_oak_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
 setblock 23 39 1062 minecraft:dark_oak_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
