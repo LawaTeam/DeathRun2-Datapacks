@@ -9,3 +9,4 @@ tellraw @a [{"text": "[系统] ","bold": true,"color":"gold"},{"selector":"@s","
 kill @s
 tellraw @a [{"text": "————但是被神秘的力量拉了回来","bold": true,"color":"yellow"}]
 execute if score @s hearts matches 0.. run scoreboard players add @s hearts 1
+execute if score @s Deaths matches 0.. run scoreboard players remove @s Deaths 1
