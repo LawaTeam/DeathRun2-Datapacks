@@ -21,7 +21,7 @@ execute if entity @a[tag=use_t800_killer] as @a[team=runner] at @s run fill ~ ~ 
 # 每20tick清除着火
 execute if entity @a[tag=use_t800_killer] store result score t800_killer prop_temp run scoreboard players get t800_killer prop_time
 execute if entity @a[tag=use_t800_killer] store result score re_3 prop_temp run scoreboard players operation t800_killer prop_temp %= 20 constant
-execute if entity @a[tag=use_t800_killer] if score re_3 prop_temp matches 0 as @a[team=runner] at @s run fill ~-5 ~-5 ~-5 ~5 ~5 ~5 air replace fire
+execute if entity @a[tag=use_t800_killer] if score re_3 prop_temp matches 0 as @a[team=runner] at @s run fill ~-10 ~-10 ~-10 ~10 ~10 ~10 air replace fire
 
 # 杀手文字显示
 # execute if score t800_killer prop_time matches 0.. as @a[team=killer] at @s run title @s actionbar [{"text": "T800的祝福","bold": true,"color": "gold"},{"text": "效果正在进行","bold": true,"color":"green"}]
@@ -34,5 +34,5 @@ execute if entity @a[tag=use_t800_killer] if score re_3 prop_temp matches 0 as @
 execute if score t800_killer prop_time matches -1 run tag @a remove use_t800_killer
 # execute if score t800_killer prop_time matches -1 run tag @a remove using
 execute if score t800_killer prop_time matches -1 run gamerule naturalRegeneration true
-execute if score t800_killer prop_time matches -1 as @a[team=runner] at @s run fill ~-5 ~-5 ~-5 ~5 ~5 ~5 air replace fire
+execute if score t800_killer prop_time matches -1 as @a[team=runner] at @s run fill ~-10 ~-10 ~-10 ~10 ~10 ~10 air replace fire
 execute if score t800_killer prop_time matches -1 run scoreboard players reset t800_killer prop_time
