@@ -56,7 +56,8 @@ function prop:prop_system/14_flash/tick
 # 电摇嘲讽(runner)
 execute as @a[team=runner,nbt={Inventory:[{Slot:-106b,id:"minecraft:stick",tag:{CustomModelData:1015}}]}] at @s run function prop:prop_system/15_dianyao/dianyao
 
-execute as @a[nbt={Inventory:[{tag:{CustomModelData:1000}}]}] unless entity @s[nbt={Inventory:[{tag:{CustomModelData:1000},Slot:0b}]}] run function prop:prop_settings/wrong_place
+execute as @a[team=runner,nbt={Inventory:[{tag:{CustomModelData:1000}}]}] unless entity @s[nbt={Inventory:[{tag:{CustomModelData:1000},Slot:0b}]}] run function prop:prop_settings/wrong_place
+execute as @a[team=killer,nbt={Inventory:[{tag:{CustomModelData:1000}}]}] unless entity @s[nbt={Inventory:[{tag:{CustomModelData:1000},Slot:3b}]}] run function prop:prop_settings/wrong_place
 
 function prop:prop_settings/delete
 
