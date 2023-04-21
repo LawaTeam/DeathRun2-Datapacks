@@ -4,7 +4,7 @@
 #From       :
 #Description:
 
-execute store result score @s prop_temp run loot spawn ~ ~ ~ loot prop:random
+execute store result score @s prop_temp run loot give @s loot prop:random
 replaceitem entity @s weapon.offhand air
 
 execute if score @s prop_temp matches 1 run tellraw @a [{"text": "[系统] ","bold": true,"color":"gold"},{"selector":"@s","bold": true,"color": "aqua"},{"text": "使用了神签 [","bold": true,"color":"gold"},{"text": "电摇嘲讽","bold": true, "color":"gray"},{"text": "] ","bold": true,"color":"gold"},{"text": "运气不好，没有任何卵用","bold": true,"color": "red"}]

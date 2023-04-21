@@ -20,3 +20,5 @@ execute if score 游戏状态 run matches 0 if score 模拟开局 prop_settings 
 
 execute if score 开关 prop_settings matches 0 unless block 23 39 1059 lantern run setblock 23 40 1059 minecraft:spruce_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
 execute if score 开关 prop_settings matches 0 unless block 23 39 1059 lantern run setblock 23 39 1059 minecraft:lantern[hanging=true,waterlogged=false]
+
+kill @e[type=item,nbt={Item:{id:"minecraft:grass"}}]
