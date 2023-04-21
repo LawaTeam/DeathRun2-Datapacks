@@ -101,6 +101,20 @@
               "tag": "{CustomModelData:1013,display:{Name:'{\"text\":\"时间扭曲器\",\"bold\":true,\"color\":\"yellow\"}'}}"
             }
           ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:1015,display:{Name:'{\"text\":\"电摇嘲讽\",\"bold\":true,\"color\":\"gray\"}'}}"
+            }
+          ]
         }
       ]
     }

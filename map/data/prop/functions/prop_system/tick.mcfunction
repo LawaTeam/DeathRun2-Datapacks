@@ -49,6 +49,13 @@ execute as @a[team=runner,nbt={Inventory:[{Slot:-106b,id:"minecraft:stick",tag:{
 # 时间扭曲曲(runner)
 execute as @a[team=runner,nbt={Inventory:[{Slot:-106b,id:"minecraft:stick",tag:{CustomModelData:1013}}]}] at @s run function prop:prop_system/13_niuqu/niuqu
 
+# 闪光弹(killer)
+execute as @a[team=killer,nbt={Inventory:[{Slot:-106b,id:"minecraft:stick",tag:{CustomModelData:1014}}]}] at @s run function prop:prop_system/14_flash/boom
+function prop:prop_system/14_flash/tick
+
+# 电摇嘲讽(runner)
+execute as @a[team=runner,nbt={Inventory:[{Slot:-106b,id:"minecraft:stick",tag:{CustomModelData:1015}}]}] at @s run function prop:prop_system/15_dianyao/dianyao
+
 execute as @a[nbt={Inventory:[{tag:{CustomModelData:1000}}]}] unless entity @s[nbt={Inventory:[{tag:{CustomModelData:1000},Slot:0b}]}] run function prop:prop_settings/wrong_place
 
 function prop:prop_settings/delete

@@ -101,6 +101,20 @@
               "tag": "{CustomModelData:1010,display:{Name:'{\"text\":\"RPG!!!!!\",\"bold\":true,\"color\":\"red\"}'}}"
             }
           ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:1014,display:{Name:'{\"text\":\"闪光弹\",\"bold\":true,\"color\":\"light_purple\"}'}}"
+            }
+          ]
         }
       ]
     }
