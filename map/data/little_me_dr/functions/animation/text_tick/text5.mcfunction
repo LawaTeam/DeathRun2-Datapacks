@@ -12,6 +12,8 @@ execute if score show_animate5 animate_time matches 30 if entity @a[tag=front5] 
 
 execute if score show_animate5 animate_time matches 50 if entity @a[tag=front5] run data merge entity @e[tag=text5,tag=killer_animate,limit=1] {HandItems: [{}, {}]}
 execute if score show_animate5 animate_time matches 50 if entity @a[tag=front5] run execute as @e[tag=text5,tag=runner_animate,limit=1] at @s run summon lightning_bolt
+execute if score show_animate5 animate_time matches 40..100 if entity @a[tag=front5] run execute as @e[tag=text5,tag=runner_animate,limit=1] at @s run stopsound @a * entity.lightning_bolt.impact 
+execute if score show_animate5 animate_time matches 40..100 if entity @a[tag=front5] run execute as @e[tag=text5,tag=runner_animate,limit=1] at @s run stopsound @a * entity.lightning_bolt.thunder 
 execute if score show_animate5 animate_time matches 50 if entity @a[tag=front5] run data merge entity @e[tag=text5,tag=runner_animate,limit=1] {Pose:{LeftArm:[0f,0f,225f],RightArm:[0f,0f,139f]}}
 
 execute if score show_animate5 animate_time matches 80 if entity @a[tag=front5] run data merge entity @e[tag=text5,tag=runner_animate,limit=1] {Pose:{LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f]}}
@@ -22,6 +24,8 @@ execute if score show_animate5 animate_time matches 110 if entity @a[tag=front5]
 
 execute if score show_animate5 animate_time matches 130 if entity @a[tag=front5] run data merge entity @e[tag=text5,tag=runner_animate,limit=1] {HandItems: [{}, {}]}
 execute if score show_animate5 animate_time matches 130 if entity @a[tag=front5] run execute as @e[tag=text5,tag=killer_animate,limit=1] at @s run summon lightning_bolt
+execute if score show_animate5 animate_time matches 120..160 if entity @a[tag=front5] run execute as @e[tag=text5,tag=runner_animate,limit=1] at @s run stopsound @a * entity.lightning_bolt.impact 
+execute if score show_animate5 animate_time matches 120..160 if entity @a[tag=front5] run execute as @e[tag=text5,tag=runner_animate,limit=1] at @s run stopsound @a * entity.lightning_bolt.thunder 
 execute if score show_animate5 animate_time matches 130 if entity @a[tag=front5] run data merge entity @e[tag=text5,tag=killer_animate,limit=1] {Pose:{LeftArm:[0f,0f,225f],RightArm:[0f,0f,139f]}}
 
 execute if score show_animate5 animate_time matches 160 if entity @a[tag=front5] run data merge entity @e[tag=text5,tag=killer_animate,limit=1] {Pose:{LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f]}}
