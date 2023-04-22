@@ -57,7 +57,7 @@ function prop:prop_system/14_flash/tick
 execute as @a[team=runner,nbt={Inventory:[{Slot:-106b,id:"minecraft:stick",tag:{CustomModelData:1015}}]}] at @s run function prop:prop_system/15_dianyao/dianyao
 
 # 魔法怎么失灵啦(killer)
-execute as @a[team=runner,nbt={Inventory:[{Slot:-106b,id:"minecraft:stick",tag:{CustomModelData:1016}}]}] at @s run function prop:prop_system/16_mofa/mofa
+execute as @a[team=killer,nbt={Inventory:[{Slot:-106b,id:"minecraft:stick",tag:{CustomModelData:1016}}]}] at @s run function prop:prop_system/16_mofa/mofa
 
 execute as @a[team=runner,nbt={Inventory:[{tag:{CustomModelData:1000}}]}] unless entity @s[nbt={Inventory:[{tag:{CustomModelData:1000},Slot:0b}]}] run function prop:prop_settings/wrong_place
 execute as @a[team=killer,nbt={Inventory:[{tag:{CustomModelData:1000}}]}] unless entity @s[nbt={Inventory:[{tag:{CustomModelData:1000},Slot:3b}]}] run function prop:prop_settings/wrong_place
