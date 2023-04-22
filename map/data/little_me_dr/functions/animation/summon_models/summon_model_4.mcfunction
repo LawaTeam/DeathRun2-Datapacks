@@ -28,16 +28,16 @@ summon minecraft:armor_stand -245.325 54.60 713.25 {NoGravity: 1b,ShowArms: 1b, 
 summon minecraft:armor_stand -243.925 54.40 713.25 {NoGravity: 1b,ShowArms: 1b, Invisible: 0b, Tags: ["third","animate","text4"],CustomName:'{"bold":true,"color":"dark_green","text":"Third"}',ArmorItems: [{id: "minecraft:leather_boots", Count: 1b, tag: {display: {color: 1149133}, Damage: 0}},{id:"minecraft:leather_leggings", Count: 1b, tag: {display: {color: 1149133}, Damage: 0}},{id:"minecraft:leather_chestplate", Count: 1b, tag: {display: {color: 1149133}, Damage: 0}}, {id: "minecraft:player_head", Count: 1b}], NoBasePlate: 1b,CustomNameVisible: 1b,Small:1b}
 
 
-summon armor_stand -243.5 56 711.5 {NoGravity:1b,CustomName:'{"text":"本游戏共有两个游戏模式","bold": true,"color": "gold"}',CustomNameVisible:1b,Invisible:1b,Tags:["text4"]}
-summon armor_stand -243.5 55.75 711.5 {NoGravity:1b,CustomName:'{"text":"具体游戏介绍请前往客制化查看","bold": true,"color": "dark_purple"}',CustomNameVisible:1b,Invisible:1b,Tags:["text4"]}
+summon armor_stand -243.5 55 713.5 {NoGravity:1b,CustomName:'{"text":"本游戏共有两个游戏模式","bold": true,"color": "gold"}',CustomNameVisible:1b,Invisible:1b,Tags:["text4"]}
+summon armor_stand -243.5 54.75 713.5 {NoGravity:1b,CustomName:'{"text":"具体游戏介绍请前往客制化查看","bold": true,"color": "dark_purple"}',CustomNameVisible:1b,Invisible:1b,Tags:["text4"]}
 
-summon armor_stand -244.75 55.0 712.0 {NoGravity:1b,CustomName:'{"text":"[竞速模式]","bold": true,"color": "aqua"}',CustomNameVisible:1b,Invisible:1b,Tags:["text4"]}
-summon armor_stand -244.75 54.75 712.0 {NoGravity:1b,CustomName:'{"text":"全速冲向终点","bold": true,"color": "aqua"}',CustomNameVisible:1b,Invisible:1b,Tags:["text4"]}
-summon armor_stand -244.75 54.5 712.0 {NoGravity:1b,CustomName:'{"text":"争夺冠军之位","bold": true,"color": "aqua"}',CustomNameVisible:1b,Invisible:1b,Tags:["text4"]}
+summon armor_stand -244.75 54.5 713.5 {NoGravity:1b,CustomName:'{"text":"[竞速模式]","bold": true,"color": "aqua"}',CustomNameVisible:1b,Invisible:1b,Tags:["text4"]}
+summon armor_stand -244.75 54.25 713.5 {NoGravity:1b,CustomName:'{"text":"全速冲向终点","bold": true,"color": "aqua"}',CustomNameVisible:1b,Invisible:1b,Tags:["text4"]}
+summon armor_stand -244.75 54.0 713.5 {NoGravity:1b,CustomName:'{"text":"争夺冠军之位","bold": true,"color": "aqua"}',CustomNameVisible:1b,Invisible:1b,Tags:["text4"]}
 
-summon armor_stand -242.25 55.0 712.0 {NoGravity:1b,CustomName:'{"text":"[计时模式]","bold": true,"color": "aqua"}',CustomNameVisible:1b,Invisible:1b,Tags:["text4"]}
-summon armor_stand -242.25 54.75 712.0 {NoGravity:1b,CustomName:'{"text":"规定时间内完成","bold": true,"color": "aqua"}',CustomNameVisible:1b,Invisible:1b,Tags:["text4"]}
-summon armor_stand -242.25 54.5 712.0 {NoGravity:1b,CustomName:'{"text":"实现速度巅峰","bold": true,"color": "aqua"}',CustomNameVisible:1b,Invisible:1b,Tags:["text4"]}
+summon armor_stand -242.25 54.5 713.5 {NoGravity:1b,CustomName:'{"text":"[计时模式]","bold": true,"color": "aqua"}',CustomNameVisible:1b,Invisible:1b,Tags:["text4"]}
+summon armor_stand -242.25 54.25 713.5 {NoGravity:1b,CustomName:'{"text":"规定时间内完成","bold": true,"color": "aqua"}',CustomNameVisible:1b,Invisible:1b,Tags:["text4"]}
+summon armor_stand -242.25 54.0 713.5 {NoGravity:1b,CustomName:'{"text":"实现速度巅峰","bold": true,"color": "aqua"}',CustomNameVisible:1b,Invisible:1b,Tags:["text4"]}
 
 summon armor_stand -242.5 53.75 713.2 {CustomName:'{"text": "简易计时器","bold": true,"color": "dark_gray"}',CustomNameVisible:1b,NoGravity:1b,Invisible:1b,Tags:["text4"]}
 

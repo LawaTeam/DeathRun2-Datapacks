@@ -4,7 +4,7 @@
 #From       :
 #Description:
 
-execute as @e[tag=rpg] at @s run kill @a[distance=..2,team=runner]
+execute as @e[tag=rpg] at @s run kill @a[distance=..4,team=runner]
 execute if entity @e[tag=rpg] run kill @e[tag=rpg]
 
 execute if score rpg_timer prop_time matches 0.. run scoreboard players remove rpg_timer prop_time 1

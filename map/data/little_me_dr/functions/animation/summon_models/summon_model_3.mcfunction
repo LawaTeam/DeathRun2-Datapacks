@@ -16,10 +16,10 @@ summon minecraft:armor_stand -245.50 55.00 730.50 {NoGravity: 1b,ShowArms: 1b, D
 
 summon minecraft:armor_stand -242.50 55.00 731.50 {NoGravity: 1b,ShowArms: 1b, Pose: {LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f]},  Invisible: 0b, Tags: ["runner_animate","animate","text3"], Motion: [0.0d, 0.0d, 0.0d],Rotation: [-180.0f, 0.0f], CustomName: '{"bold":true,"color":"blue","text":"Runner"}', Fire: -1s, ArmorItems: [{id: "minecraft:leather_boots", Count: 1b, tag: {display: {color: 1149133}, Damage: 0}}, {id: "minecraft:leather_leggings", Count: 1b, tag: {display: {color: 1149133}, Damage: 0}}, {id: "minecraft:leather_chestplate", Count: 1b, tag: {display: {color: 1149133}, Damage: 0}}, {id: "minecraft:player_head", Count: 1b}], NoBasePlate: 1b,CustomNameVisible: 1b}
 
-summon minecraft:armor_stand -243.5 56.00 730.5 {CustomName:'[{"text":"[Runner]","bold":true,"color":"blue"},{"text":"在机关前","bold": true,"color": "gold"}]',CustomNameVisible:1b,NoGravity:1b,Tags:["text3"],Invisible:1b}
+summon minecraft:armor_stand -243.5 55.00 728.5 {CustomName:'[{"text":"[Runner]","bold":true,"color":"blue"},{"text":"在机关前","bold": true,"color": "gold"}]',CustomNameVisible:1b,NoGravity:1b,Tags:["text3"],Invisible:1b}
 
-summon minecraft:armor_stand -243.5 55.75 730.5 {CustomName:'[{"text":"可以利用假动作","bold": true,"color":"gold"}]',CustomNameVisible:1b,NoGravity:1b,Tags:["text3"],Invisible:1b}
+summon minecraft:armor_stand -243.5 54.75 728.5 {CustomName:'[{"text":"可以利用假动作","bold": true,"color":"gold"}]',CustomNameVisible:1b,NoGravity:1b,Tags:["text3"],Invisible:1b}
 
-summon minecraft:armor_stand -243.5 55.50 730.5 {CustomName:'[{"text":"“欺骗”杀手运行机关","bold":true,"color":"gold"}]',CustomNameVisible:1b,NoGravity:1b,Tags:["text3"],Invisible:1b}
+summon minecraft:armor_stand -243.5 54.50 728.5 {CustomName:'[{"text":"“欺骗”杀手运行机关","bold":true,"color":"gold"}]',CustomNameVisible:1b,NoGravity:1b,Tags:["text3"],Invisible:1b}
 
-summon minecraft:armor_stand -243.5 55.25 730.5 {CustomName:'[{"text":"也可以“献祭”队友获得最好的游戏体验(bushi","bold":true,"color":"green"}]',CustomNameVisible:1b,NoGravity:1b,Tags:["text3"],Invisible:1b}
+summon minecraft:armor_stand -243.5 54.25 728.5 {CustomName:'[{"text":"也可以“献祭”队友获得最好的游戏体验(bushi","bold":true,"color":"green"}]',CustomNameVisible:1b,NoGravity:1b,Tags:["text3"],Invisible:1b}

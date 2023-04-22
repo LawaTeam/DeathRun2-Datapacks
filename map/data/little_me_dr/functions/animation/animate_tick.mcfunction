@@ -90,3 +90,10 @@ execute if score show_animate4 animate_time matches 30 if entity @a[tag=front4] 
 execute if score show_animate4 animate_time matches 30 if entity @a[tag=front4] run data merge entity @e[tag=third,tag=text4,limit=1] {Pose:{LeftArm:[0f,0f,0f]}}
 
 execute if score show_animate4 animate_time >= 40 animate_constant run scoreboard players reset show_animate4 animate_time
+
+# text5
+execute as @a[x=-258,y=52,z=715,dx=4,dy=4,dz=3] at @s run tag @s add front5
+execute unless entity @a[x=-258,y=52,z=715,dx=4,dy=4,dz=3] if entity @a[tag=front5] as @a[tag=front5] run tag @s remove front5
+execute if entity @a[tag=front5] unless block -256 60 713 minecraft:redstone_block run setblock -256 60 713 minecraft:redstone_block replace
+execute unless entity @a[tag=front5] if block -256 60 709 air run setblock -256 60 709 redstone_block replace
+execute if entity @a[tag=front5] run function little_me_dr:animation/text_tick/text5
