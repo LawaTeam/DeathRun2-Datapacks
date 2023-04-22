@@ -14,7 +14,7 @@ clear @a[tag=player]
 execute as @a at @s run spawnpoint @s
 gamemode adventure @a
 
-title @a title [{"text":">>","color":"white","bold":true},{"text":"杀手胜利","color":"red","bold":true},{"text":"<<","color":"white","bold":true}]
+title @a title [{"text":"[系统] ","bold":true,"color":"gold"},{"text":"杀手胜利","color":"red","bold":true}]
 
 #title @a title {"text":"Game Over","color":"gold","bold":true}
 tellraw @a {"text":"===============================================","color":"gray"}

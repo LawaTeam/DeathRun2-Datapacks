@@ -9,4 +9,6 @@ tellraw @a [{"text": "[系统] ","bold": true,"color":"gold"},{"selector":"@s","
 kill @s
 tag @s add need_plus
 tellraw @a [{"text": "————但是被神秘的力量拉了回来","bold": true,"color":"yellow"}]
-schedule function prop:prop_system/13_niuqu/modify 10t
+
+execute if score 游戏状态 run matches 1 if score 游戏模式 setting matches 1 run scoreboard players reset @s Deaths
+execute if score 游戏状态 run matches 1 if score 游戏模式 setting matches 2 run scoreboard players remove @s Deaths 1

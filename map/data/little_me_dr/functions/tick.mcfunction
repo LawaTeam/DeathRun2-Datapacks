@@ -7,7 +7,7 @@
 effect give @a minecraft:saturation 999999 1 true
 
 # 跳起来提示
-execute as @a[nbt={ActiveEffects:[{Id:8b}]}] at @s run title @s actionbar {"text": "跳起来！","bold": true,"color": "green"}
+execute as @a[nbt={ActiveEffects:[{Id:8b}]}] at @s run title @s title {"text": "跳起来！","bold": true,"color": "green"}
 
 # 计分板地图选择加分
 execute if score map map_selection matches 1 run scoreboard players add map1 animate_time 1
