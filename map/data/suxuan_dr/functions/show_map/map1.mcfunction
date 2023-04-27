@@ -73,5 +73,5 @@ execute if score map1 animate_time matches 63 run summon falling_block 4 31 1003
 
 
 
-execute positioned 2 27.5 1005 if score map1 animate_time matches 120 run function little_me_dr:show_map/reset
+execute positioned 2 27.5 1005 if score map1 animate_time matches 120 run function suxuan_dr:show_map/reset
 execute if score map1 animate_time matches 130 run scoreboard players set map1 animate_time 0

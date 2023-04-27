@@ -4,6 +4,6 @@
 #From       :
 #Description:
 
-execute as @s[tag=item_0] run loot replace entity @s hotbar.5 loot prop:killer
-execute as @s[tag=item_1] run loot replace entity @s hotbar.6 loot prop:killer
-execute as @s[tag=item_2] run loot replace entity @s hotbar.5 loot prop:killer
+execute as @s[tag=item_0] run loot replace entity @s hotbar.5 loot prop:jishi/killer
+execute as @s[tag=item_1] run loot replace entity @s hotbar.6 loot prop:jishi/killer
+execute as @s[tag=item_2] run loot replace entity @s hotbar.5 loot prop:jishi/killer

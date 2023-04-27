@@ -16,12 +16,12 @@ execute if score map map_selection matches 3 run scoreboard players add map3 ani
 # execute if score map1 animate_time >= 160 animate_constant run scoreboard players set map1 animate_time 0
 
 # 地图动画
-execute if score map map_selection matches 1 run function little_me_dr:show_map/map1
-execute if score map map_selection matches 2 run function little_me_dr:show_map/map2
-execute if score map map_selection matches 3 run function little_me_dr:show_map/map3
+execute if score map map_selection matches 1 run function suxuan_dr:show_map/map1
+execute if score map map_selection matches 2 run function suxuan_dr:show_map/map2
+execute if score map map_selection matches 3 run function suxuan_dr:show_map/map3
 
 # 教程动画高频
-function little_me_dr:animation/animate_tick
+function suxuan_dr:animation/animate_tick
 
 # 教程图加速
 execute as @a[x=-276,y=52,z=714,dx=41,dy=6,dz=13] run effect give @s speed 1 2 true

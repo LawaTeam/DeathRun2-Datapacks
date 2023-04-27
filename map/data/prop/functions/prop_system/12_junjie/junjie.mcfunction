@@ -7,8 +7,8 @@
 function prop:prop_system/00_box_check/check
 
 execute if entity @s[tag=item_0] run tellraw @a [{"text": "[系统] ","bold": true,"color":"gold"},{"selector":"@s","bold": true,"color": "aqua"},{"text": "使用了神签 [","bold": true,"color":"gold"},{"text": "吸吸雾者魏俊杰","bold": true, "color":"yellow"},{"text": "]","bold": true,"color":"gold"},{"text": " TA拿到了两个神签!","bold": true,"color":"gold"}]
-execute if entity @s[tag=item_0] run loot replace entity @s hotbar.1 loot prop:runner
-execute if entity @s[tag=item_0] run loot replace entity @s hotbar.2 loot prop:runner
+execute if entity @s[tag=item_0] run loot replace entity @s hotbar.1 loot prop:jishi/runner
+execute if entity @s[tag=item_0] run loot replace entity @s hotbar.2 loot prop:jishi/runner
 
 execute if entity @s[tag=!item_0] run tellraw @a [{"text": "[系统] ","bold": true,"color":"gold"},{"selector":"@s","bold": true,"color": "aqua"},{"text": "使用了神签 [","bold": true,"color":"gold"},{"text": "吸吸雾者魏俊杰","bold": true, "color":"yellow"},{"text": "]","bold": true,"color":"gold"},{"text": " 但是没有任何卵用","bold": true,"color":"gray"}]
 

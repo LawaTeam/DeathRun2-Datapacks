@@ -80,5 +80,5 @@ execute if score map2 animate_time matches 62 run summon falling_block 3 29 1004
 execute if score map2 animate_time matches 64 run summon falling_block 2 32 1004 {Time:100,DropItem:0,BlockState:{Name:"minecraft:stone_brick_slab"}}
 
 
-execute positioned 2 27.5 1005 if score map2 animate_time matches 120 run function little_me_dr:show_map/reset
+execute positioned 2 27.5 1005 if score map2 animate_time matches 120 run function suxuan_dr:show_map/reset
 execute if score map2 animate_time matches 130 run scoreboard players set map2 animate_time 0
