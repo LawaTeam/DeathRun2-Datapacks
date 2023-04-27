@@ -197,5 +197,3 @@ particle minecraft:totem_of_undying 104.00 37.99 -449.00 0 0 1 0.1 2
 
 #execute as CO_LIGHT at CO_LIGHT run summon minecraft:item ~ ~10 ~ {Item:{id:"minecraft:tnt",Count:1},PickupDelay:-1,Glowing:1,NoGravity:true}
 
-# 设置所有盔甲架物品无法拿取
-execute as @e[type=minecraft:armor_stand,nbt={DisabledSlots:0}] at @s run data merge entity @s {DisabledSlots:16191}

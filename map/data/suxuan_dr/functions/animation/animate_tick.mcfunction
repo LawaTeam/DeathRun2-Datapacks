@@ -37,3 +37,10 @@ execute unless entity @a[x=-258,y=52,z=715,dx=4,dy=4,dz=3] if entity @a[tag=fron
 execute if entity @a[tag=front5] unless block -256 60 713 minecraft:redstone_block run setblock -256 60 713 minecraft:redstone_block replace
 execute unless entity @a[tag=front5] if block -256 60 709 air run setblock -256 60 709 redstone_block replace
 execute if entity @a[tag=front5] run function suxuan_dr:animation/text_tick/text5
+
+# text6
+execute as @a[x=-270,y=52,z=716,dx=4,dy=4,dz=-6] at @s run tag @s add front6
+execute unless entity @a[x=-270,y=52,z=716,dx=4,dy=4,dz=-6] if entity @a[tag=front6] as @a[tag=front6] run tag @s remove front6
+execute if entity @a[tag=front6] unless block -268 60 713 minecraft:redstone_block run setblock -268 60 713 minecraft:redstone_block replace
+execute unless entity @a[tag=front6] if block -268 60 709 air run setblock -268 60 709 redstone_block replace
+execute if entity @a[tag=front6] run function suxuan_dr:animation/text_tick/text6

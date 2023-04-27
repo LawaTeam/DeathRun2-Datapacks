@@ -15,6 +15,7 @@ team modify runner friendlyFire false
 scoreboard players set 10 animate_constant 10
 scoreboard players set 40 animate_constant 40
 scoreboard players set 60 animate_constant 60
+scoreboard players set 60 animate_constant 60
 
 data merge block 41 38 1067 {Text1:'[{"text":"右键开启碰撞箱","color":"aqua","bold":true,"clickEvent":{"action":"run_command","value":"/function suxuan_dr:settings/friend_collision_on"}}]',Text2:'[{"text":"当前:","color":"white","bold":true},{"text":"关闭","color":"red","bold":true}]'}
 data merge block 44 38 1067 {Text1:'[{"text":"右键开启互相伤害","color":"aqua","bold":true,"clickEvent":{"action":"run_command","value":"/function suxuan_dr:settings/friend_fire_on"}}]',Text2:'[{"text":"当前:","color":"white","bold":true},{"text":"关闭","color":"red","bold":true}]'}
