@@ -26,6 +26,7 @@ execute if score second_check animate_time matches 1 run scoreboard players add 
 execute if score second_check animate_time matches 1 run function suxuan_dr:animation/final_show/show_1
 
 execute if score second_check animate_time matches 2 run tp @a[tag=final] -267.5 54 713.0 -180 12
+execute if score second_check animate_time matches 2 run fill -270 56 714 -266 54 714 gray_concrete
 execute if score second_check animate_time matches 2 run scoreboard players add show_2 animate_time 1
 execute if score second_check animate_time matches 2 run function suxuan_dr:animation/final_show/show_2
 
