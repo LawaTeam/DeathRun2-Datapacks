@@ -4,7 +4,7 @@
 #From       :
 #Description:
 
-execute if block -268 55 711 stone_button[powered=true] if score first_check animate_time matches 0 run tellraw @a[tag=front6] [{"text": "[系统] ","bold": true,"color": "gold"},{"text": "房间内玩家在彩蛋阶段无法退出，墙裂建议看完前面的每一教程后再进入，如果想直接进入请在五秒钟内再次点击按钮!","bold": true,"color": "light_purple"}]
+execute if block -268 55 711 stone_button[powered=true] if score first_check animate_time matches 0 run tellraw @a[tag=front6] [{"text": "[","bold": true,"color": "dark_red"},{"text": "xx","bold": true,"color": "dark_red","obfuscated": true},{"text": "] ","bold": true,"color": "dark_red"},{"text": "a","obfuscated": true,"bold": true,"color": "dark_red"},{"text": "房间内","bold": true,"color": "red"},{"text": "a","obfuscated": true,"bold": true,"color": "dark_red"},{"text": "玩家","bold": true,"color": "red"},{"text": "a","obfuscated": true,"bold": true,"color": "dark_red"},{"text": "在过程中","bold": true,"color": "red"},{"text": "a","obfuscated": true,"bold": true,"color": "dark_red"},{"text": "无法退","bold": true,"color": "red"},{"text": "a","obfuscated": true,"bold": true,"color": "dark_red"},{"text": "确认进入","bold": true,"color": "red"},{"text": "a","obfuscated": true,"bold": true,"color": "dark_red"},{"text": "请","bold": true,"color": "red"},{"text": "a","obfuscated": true,"bold": true,"color": "dark_red"},{"text": "五秒内","bold": true,"color": "red"},{"text": "a","obfuscated": true,"bold": true,"color": "dark_red"},{"text": "再","bold": true,"color": "red"},{"text": "a","obfuscated": true,"bold": true,"color": "dark_red"},{"text": "点击","bold": true,"color": "red"}]
 
 kill @e[type=item,nbt={Item:{id:"minecraft:writable_book"}}]
 
@@ -43,7 +43,7 @@ execute as @e[tag=text6] at @s store result score @s animate_time run data get e
 execute as @e[tag=text6] if score @s animate_time matches 58.. run kill @s
 execute as @e[tag=text6] if score @s animate_time matches 54..57 run data modify entity @s CustomNameVisible set value 1b
 
-execute if score over animate_time matches 1060.. run scoreboard players set second_check animate_time 4
+execute if score over animate_time matches 540.. run scoreboard players set second_check animate_time 4
 
 execute if score second_check animate_time matches 4 if score summon_author animate_time matches 0 run fill -265 59 709 -272 52 715 smooth_quartz replace black_concrete
 execute if score second_check animate_time matches 4 if score summon_author animate_time matches 0 run fill -266 58 713 -270 58 710 minecraft:lantern

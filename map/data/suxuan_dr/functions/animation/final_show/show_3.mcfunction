@@ -4,5 +4,5 @@
 #From       :
 #Description:
 
-execute as @e[tag=text6] at @s run tp @s ~ ~0.01 ~
+execute as @e[tag=text6] at @s run tp @s ~ ~0.02 ~
 scoreboard players add over animate_time 1

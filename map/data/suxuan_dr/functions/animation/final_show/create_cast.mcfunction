@@ -5,7 +5,7 @@
 #Description:
 
 summon armor_stand -267.5 54.0 710.5 {NoGravity:1b,Marker:1b,Tags:[text6],CustomName:'{"text": "[制作人员名单]","bold": true,"color": "gold"}',CustomNameVisible:0b,Invisible:1b}
-summon armor_stand -267.5 53.75 710.5 {NoGravity:1b,Marker:1b,Tags:[text6],CustomName:'{"text": "[总策划]","bold": true,"color": "aqua"}',CustomNameVisible:0b,Invisible:1b}
+summon armor_stand -267.5 53.75 710.5 {NoGravity:1b,Marker:1b,Tags:[text6],CustomName:'{"text": "[总监制]","bold": true,"color": "aqua"}',CustomNameVisible:0b,Invisible:1b}
 summon armor_stand -267.5 53.5 710.5 {NoGravity:1b,Marker:1b,Tags:[text6],CustomName:'{"text": "paper_0713","bold": true,"color": "white"}',CustomNameVisible:0b,Invisible:1b}
 summon armor_stand -267.5 53.25 710.5 {NoGravity:1b,Marker:1b,Tags:[text6],CustomName:'{"text": "[指令]","bold": true,"color": "aqua"}',CustomNameVisible:0b,Invisible:1b}
 summon armor_stand -267.5 53.0 710.5 {NoGravity:1b,Marker:1b,Tags:[text6],CustomName:'{"text": "CBer_SuXuan","bold": true,"color": "white"}',CustomNameVisible:0b,Invisible:1b}
@@ -23,7 +23,7 @@ summon armor_stand -267.5 50.25 710.5 {NoGravity:1b,Marker:1b,Tags:[text6],Custo
 summon armor_stand -267.5 50.0 710.5 {NoGravity:1b,Marker:1b,Tags:[text6],CustomName:'{"text": "[特别鸣谢]","bold": true,"color": "light_purple"}',CustomNameVisible:0b,Invisible:1b}
 summon armor_stand -267.5 49.75 710.5 {NoGravity:1b,Marker:1b,Tags:[text6],CustomName:'{"text": "挚爱ninの山羊","bold": true,"color": "white"}',CustomNameVisible:0b,Invisible:1b}
 summon armor_stand -267.5 49.5 710.5 {NoGravity:1b,Marker:1b,Tags:[text6],CustomName:'{"text": "小夏2016","bold": true,"color": "white"}',CustomNameVisible:0b,Invisible:1b}
-summon armor_stand -267.5 49.0 710.5 {NoGravity:1b,Marker:1b,Tags:[text6],CustomName:'{"text": "以及每一个玩本游戏的玩家!","bold": true,"color": "white"}',CustomNameVisible:0b,Invisible:1b}
+summon armor_stand -267.5 49.0 710.5 {NoGravity:1b,Marker:1b,Tags:[text6],CustomName:'{"text": "以及每一个玩本游戏的玩家!","bold": true,"color": "gold"}',CustomNameVisible:0b,Invisible:1b}
 summon armor_stand -267.5 46.0 710.5 {NoGravity:1b,Marker:1b,Tags:[text6],CustomName:'{"text": "所有制作人员祝您——","bold": true,"color": "gold"}',CustomNameVisible:0b,Invisible:1b}
 summon armor_stand -267.5 45.75 710.5 {NoGravity:1b,Marker:1b,Tags:[text6],CustomName:'{"text": "游玩愉快!","bold": true,"color": "gold"}',CustomNameVisible:0b,Invisible:1b}
 summon armor_stand -267.5 45.5 710.5 {NoGravity:1b,Marker:1b,Tags:[text6,special],CustomName:'{"text": "","bold": true,"color": "gold"}',CustomNameVisible:0b,Invisible:1b}
