@@ -17,7 +17,7 @@ execute as @e[type=armor_stand,tag=author] run data modify entity @s NoBasePlate
 execute as @e[type=armor_stand,tag=author] run data modify entity @s Invulnerable set value true
 
 data modify entity @e[tag=special,limit=1] CustomName set value '{"text": "向后转离开","bold": true,"color": "green"}'
-setblock -268 55 713 minecraft:birch_wall_sign[facing=north,waterlogged=false]{Color:"black",Text4:'{"text":""}',Text3:'{"text":""}',Text2:'{"text": "右键离开","bold": true,"clickEvent": {"action": "run_command","value": "/tp @s -274.0 53.0 721.0"},"color": "green"}'}
+setblock -268 55 713 minecraft:birch_wall_sign[facing=north,waterlogged=false]{Color:"black",Text4:'{"text":""}',Text3:'{"text":""}',Text2:'{"text": "右键离开","bold": true,"clickEvent": {"action": "run_command","value": "/function suxuan_dr:animation/final_show/over"},"color": "green"}'}
 
 effect clear @a[tag=final] invisibility
 scoreboard players set summon_author animate_time 2
