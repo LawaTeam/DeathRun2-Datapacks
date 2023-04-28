@@ -46,6 +46,7 @@ execute as @e[tag=text6] if score @s animate_time matches 54..57 run data modify
 execute if score over animate_time matches 540.. run scoreboard players set second_check animate_time 4
 
 execute if score second_check animate_time matches 4 if score summon_author animate_time matches 0 run fill -265 59 709 -272 52 715 smooth_quartz replace black_concrete
+execute if score second_check animate_time matches 4 if score summon_author animate_time matches 0 run fill -270 56 714 -266 54 714 red_concrete
 execute if score second_check animate_time matches 4 if score summon_author animate_time matches 0 run fill -266 58 713 -270 58 710 minecraft:lantern
 execute if score second_check animate_time matches 4 if score summon_author animate_time matches 0 run scoreboard players set summon_author animate_time 1
 execute if score second_check animate_time matches 4 if score summon_author animate_time matches 1 run function suxuan_dr:animation/final_show/create_author
