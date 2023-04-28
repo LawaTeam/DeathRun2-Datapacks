@@ -6,3 +6,4 @@
 
 tp @s -274.0 53.0 721.0
 tag @s remove final
+tag @s remove paper
