@@ -38,3 +38,5 @@ tag @a remove finish
 effect clear @a
 scoreboard players reset @a hearts
 scoreboard players reset @a Deaths
+
+xp set @a 0 levels

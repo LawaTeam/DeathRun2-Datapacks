@@ -21,4 +21,6 @@ execute if entity @s[nbt={SelectedItem:{tag:{CustomModelData:1012}}}] run title 
 execute if entity @s[nbt={SelectedItem:{tag:{CustomModelData:1013}}}] run title @s actionbar {"text": "使用后安全返回上一个存档点(不扣生命值)","bold": true,"color": "gold"}
 execute if entity @s[nbt={SelectedItem:{tag:{CustomModelData:1014}}}] run title @s actionbar {"text": "使用后使求生者屏幕全白2秒","bold": true,"color": "gold"}
 execute if entity @s[nbt={SelectedItem:{tag:{CustomModelData:1015}}}] run title @s actionbar {"text": "使用后10%无效果，80%替换杀手一个物品栏，10%替换两个","bold": true,"color": "gold"}
+execute if entity @s[nbt={SelectedItem:{tag:{CustomModelData:1016}}}] run title @s actionbar {"text": "使用后随机杀死一个求生者","bold": true,"color": "gold"}
+execute if entity @s[nbt={SelectedItem:{tag:{CustomModelData:1017}}}] run title @s actionbar {"text": "使用后10%扣除一点生命，80%加一点生命，10%加两点生命","bold": true,"color": "gold"}
 tag @s add hold_stick

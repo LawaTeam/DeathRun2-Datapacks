@@ -59,6 +59,9 @@ execute as @a[team=runner,nbt={Inventory:[{Slot:-106b,id:"minecraft:stick",tag:{
 # 魔法怎么失灵啦(killer)
 execute as @a[team=killer,nbt={Inventory:[{Slot:-106b,id:"minecraft:stick",tag:{CustomModelData:1016}}]}] at @s run function prop:prop_system/16_mofa/mofa
 
+# 帽子戏法(runner)
+execute as @a[team=runner,nbt={Inventory:[{Slot:-106b,id:"minecraft:stick",tag:{CustomModelData:1017}}]}] at @s run function prop:prop_system/17_maozi/maozi
+
 execute as @a[team=runner,nbt={Inventory:[{tag:{CustomModelData:1000}}]}] unless entity @s[nbt={Inventory:[{tag:{CustomModelData:1000},Slot:0b}]}] run function prop:prop_settings/wrong_place
 execute as @a[team=killer,nbt={Inventory:[{tag:{CustomModelData:1000}}]}] unless entity @s[nbt={Inventory:[{tag:{CustomModelData:1000},Slot:3b}]}] run function prop:prop_settings/wrong_place
 
@@ -67,3 +70,7 @@ function prop:prop_settings/delete
 execute as @a[nbt={SelectedItem:{id:"minecraft:stick"}}] at @s run function prop:prop_settings/show_function
 execute as @a[tag=hold_stick,nbt=!{SelectedItem:{id:"minecraft:stick"}}] run title @s actionbar {"text": ""}
 execute as @a[tag=hold_stick,nbt=!{SelectedItem:{id:"minecraft:stick"}}] run tag @s remove hold_stick
+
+execute as @a[gamemode=adventure,team=runner,x=101,y=20,z=-124,dx=-26,dy=40,dz=46] at @s if block ~ ~ ~ water run function prop:prop_system/kill
+
+execute as @a[gamemode=adventure,team=runner,x=-55,y=20,z=131,dx=-13,dy=10,dz=-12] at @s if block ~ ~ ~ water run function prop:prop_system/kill
